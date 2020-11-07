@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <title>cityscan</title>
+    <meta
+      name="description"
+      content="We create state-of-the-art technological solutions, unique in the market and designed to meet the specific needs of our clients to solve the challenges currently faced in the development and management of the infrastructure for the transport of people and goods."
+    />
+    <meta name="og:type" content="website" />
+    <meta name="og:site_name" content="cityscan" />
+    <meta name="og:title" content="cityscan" />
+    <meta
+      name="og:description"
+      content="We create state-of-the-art technological solutions, unique in the market and designed to meet the specific needs of our clients to solve the challenges currently faced in the development and management of the infrastructure for the transport of people and goods."
+    />
+    <meta name="twitter:card" content="photo" />
+    <meta name="twitter:title" content="cityscan" />
+    <meta
+      name="twitter:description"
+      content="We create state-of-the-art technological solutions, unique in the market and designed to meet the specific needs of our clients to solve the challenges currently faced in the development and management of the infrastructure for the transport of people and goods."
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="cityscan" />
+    <link rel="stylesheet" type="text/css" href="css/team.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:500|Roboto+Mono:400");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(18, 18, 18, 1)">
+    <input type="hidden" id="anPageName" name="page" value="team" />
+    <div class="anima-container-center-horizontal">
+      <div class="team anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1@1x.png" />
+        <a href="projects-mobil.html">
+          <div class="dark-butto-y-6-states-C61RwL">
+            <div class="container-JvHRlp">
+              <div class="states-dar-ry-content-y4vMFQ">
+                <div class="states-KWgPu2"></div>
+                <div class="primary-KWgPu2 anima-hidden"></div>
+                <div class="states-xOki46"></div>
+              </div>
+              <img class="pressed-y4vMFQ" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-JvHRlp font-class-3">FINISHED PROJECTS</div>
+          </div></a
+        >
+        <a href="index.html">
+          <div class="dark-butto-y-6-states-VMr6Om">
+            <div class="container-oAHA1P">
+              <div class="states-dar-ry-content-bHsSdK">
+                <div class="states-Ytz1o3"></div>
+                <div class="primary-Ytz1o3 anima-hidden"></div>
+                <div class="states-xxU2vv"></div>
+              </div>
+              <img class="pressed-bHsSdK" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-oAHA1P font-class-3">ABOUT US</div>
+          </div></a
+        >
+        <a href="contact-us.html">
+          <div class="dark-butto-y-6-states-mzXdH9">
+            <div class="container-M34txU">
+              <div class="states-dar-ry-content-azSDlV">
+                <div class="states-SfkFMd"></div>
+                <div class="primary-SfkFMd anima-hidden"></div>
+                <div class="states-BhcHqg"></div>
+              </div>
+              <img class="pressed-azSDlV" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-M34txU font-class-3">CONTACT US</div>
+          </div></a
+        >
+        <div class="dark-butto-y-6-states-QxM5SU">
+          <div class="container-bqLsCL">
+            <div class="states-dar-ry-content-GyEpv3">
+              <div class="states-xGRjBs"></div>
+              <div class="primary-xGRjBs anima-hidden"></div>
+              <div class="states-Mfhn70"></div>
+            </div>
+            <img class="pressed-GyEpv3" src="img/pressed@1x.png" />
+          </div>
+          <div class="x-label-bqLsCL font-class-3">TEAM</div>
+        </div>
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020@1x.png" />
+        <div class="group-155-C61RwL">
+          <div class="label-left-c7ef8t font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="group-166-c7ef8t">
+            <img class="ellipse-1-LtoYKm" src="img/ellipse-1@1x.png" />
+            <div class="label-left-LtoYKm">Lorem Ipsum</div>
+          </div>
+        </div>
+        <div class="group-156-C61RwL">
+          <img class="ellipse-1-PvJ6EV" src="img/ellipse-1@1x.png" />
+          <div class="label-left-PvJ6EV font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="label-left-cpklyo">Lorem Ipsum</div>
+        </div>
+        <div class="group-157-C61RwL">
+          <img class="ellipse-1-mYaecj" src="img/ellipse-1@1x.png" />
+          <div class="label-left-mYaecj font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="label-left-uxWoj8">Lorem Ipsum</div>
+        </div>
+        <img class="cityscan-C61RwL" src="img/cityscan@1x.png" />
+        <a href="index.html"><img class="cityscan-VMr6Om" src="img/cityscan-1@1x.png" /></a>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="finished-projects-2 anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-4@1x.png" />
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-4@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020@1x.png" />
+        <img class="cityscan-C61RwL" src="img/cityscan@1x.png" />
+        <a href="index.html"><img class="cityscan-VMr6Om" src="img/cityscan-1@1x.png" /></a>
+        <a href="projects-mobil.html">
+          <div class="dark-butto-y-6-states-C61RwL">
+            <div class="container-JvHRlp">
+              <div class="states-dar-ry-content-y4vMFQ">
+                <div class="states-KWgPu2"></div>
+                <div class="primary-KWgPu2 anima-hidden"></div>
+                <div class="states-xOki46"></div>
+              </div>
+              <img class="pressed-y4vMFQ" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-JvHRlp font-class-3">FINISHED PROJECTS</div>
+          </div></a
+        >
+        <a href="index.html">
+          <div class="dark-butto-y-6-states-VMr6Om">
+            <div class="container-oAHA1P">
+              <div class="states-dar-ry-content-bHsSdK">
+                <div class="states-Ytz1o3"></div>
+                <div class="primary-Ytz1o3 anima-hidden"></div>
+                <div class="states-xxU2vv"></div>
+              </div>
+              <img class="pressed-bHsSdK" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-oAHA1P font-class-3">ABOUT US</div>
+          </div></a
+        >
+        <a href="contact-us.html">
+          <div class="dark-butto-y-6-states-mzXdH9">
+            <div class="container-M34txU">
+              <div class="states-dar-ry-content-azSDlV">
+                <div class="states-SfkFMd"></div>
+                <div class="primary-SfkFMd anima-hidden"></div>
+                <div class="states-BhcHqg"></div>
+              </div>
+              <img class="pressed-azSDlV" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-M34txU font-class-3">CONTACT US</div>
+          </div></a
+        >
+        <div class="dark-butto-y-6-states-QxM5SU">
+          <div class="container-bqLsCL">
+            <div class="states-dar-ry-content-GyEpv3">
+              <div class="states-xGRjBs"></div>
+              <div class="primary-xGRjBs anima-hidden"></div>
+              <div class="states-Mfhn70"></div>
+            </div>
+            <img class="pressed-GyEpv3" src="img/pressed@1x.png" />
+          </div>
+          <div class="x-label-bqLsCL font-class-3">TEAM</div>
+        </div>
+        <div class="group-155-C61RwL">
+          <div class="label-left-c7ef8t font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="group-166-c7ef8t">
+            <img class="ellipse-1-LtoYKm" src="img/ellipse-1-3@1x.png" />
+            <div class="label-left-LtoYKm font-class-1">Lorem Ipsum</div>
+          </div>
+        </div>
+        <div class="group-155-VMr6Om">
+          <div class="label-left-tKiSuB font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="group-166-tKiSuB">
+            <img class="ellipse-1-owd3Mq" src="img/ellipse-1-3@1x.png" />
+            <div class="label-left-owd3Mq font-class-1">Lorem Ipsum</div>
+          </div>
+        </div>
+        <div class="group-155-mzXdH9">
+          <div class="label-left-x83tC0 font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="group-166-x83tC0">
+            <img class="ellipse-1-2MpvRN" src="img/ellipse-1-3@1x.png" />
+            <div class="label-left-2MpvRN font-class-1">Lorem Ipsum</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="finished-projects-3 anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-8@1x.png" />
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-9@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020-16@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020-16@1x.png" />
+        <img class="cityscan-C61RwL" src="img/cityscan-16@1x.png" />
+        <img class="cityscan-VMr6Om" src="img/cityscan-17@1x.png" />
+        <a href="projects-mobil.html">
+          <div class="dark-butto-y-6-states-C61RwL">
+            <div class="container-JvHRlp">
+              <div class="states-dar-ry-content-y4vMFQ">
+                <div class="states-KWgPu2"></div>
+                <div class="primary-KWgPu2 anima-hidden"></div>
+                <div class="states-xOki46"></div>
+              </div>
+              <img class="pressed-y4vMFQ" src="img/pressed-38@1x.png" />
+            </div>
+            <div class="x-label-JvHRlp font-class-4">FINISHED PROJECTS</div>
+          </div></a
+        >
+        <a href="index.html">
+          <div class="dark-butto-y-6-states-VMr6Om">
+            <div class="container-oAHA1P">
+              <div class="states-dar-ry-content-bHsSdK">
+                <div class="states-Ytz1o3"></div>
+                <div class="primary-Ytz1o3 anima-hidden"></div>
+                <div class="states-xxU2vv"></div>
+              </div>
+              <img class="pressed-bHsSdK" src="img/pressed-38@1x.png" />
+            </div>
+            <div class="x-label-oAHA1P font-class-4">ABOUT US</div>
+          </div></a
+        >
+        <a href="contact-us.html">
+          <div class="dark-butto-y-6-states-mzXdH9">
+            <div class="container-M34txU">
+              <div class="states-dar-ry-content-azSDlV">
+                <div class="states-SfkFMd"></div>
+                <div class="primary-SfkFMd anima-hidden"></div>
+                <div class="states-BhcHqg"></div>
+              </div>
+              <img class="pressed-azSDlV" src="img/pressed-38@1x.png" />
+            </div>
+            <div class="x-label-M34txU font-class-4">CONTACT US</div>
+          </div></a
+        >
+        <div class="dark-butto-y-6-states-QxM5SU">
+          <div class="container-bqLsCL">
+            <div class="states-dar-ry-content-GyEpv3">
+              <div class="states-xGRjBs"></div>
+              <div class="primary-xGRjBs anima-hidden"></div>
+              <div class="states-Mfhn70"></div>
+            </div>
+            <img class="pressed-GyEpv3" src="img/pressed-38@1x.png" />
+          </div>
+          <div class="x-label-bqLsCL font-class-4">TEAM</div>
+        </div>
+        <div class="group-155-C61RwL">
+          <div class="label-left-c7ef8t font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="group-166-c7ef8t">
+            <img class="ellipse-1-LtoYKm" src="img/ellipse-1-6@1x.png" />
+            <div class="label-left-LtoYKm font-class-1">Lorem Ipsum</div>
+          </div>
+        </div>
+        <div class="group-155-VMr6Om">
+          <div class="label-left-tKiSuB font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="group-166-tKiSuB">
+            <img class="ellipse-1-owd3Mq" src="img/ellipse-1-6@1x.png" />
+            <div class="label-left-owd3Mq font-class-1">Lorem Ipsum</div>
+          </div>
+        </div>
+        <div class="group-155-mzXdH9">
+          <div class="label-left-x83tC0 font-class-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint
+          </div>
+          <div class="group-166-x83tC0">
+            <img class="ellipse-1-2MpvRN" src="img/ellipse-1-6@1x.png" />
+            <div class="label-left-2MpvRN font-class-1">Lorem Ipsum</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="team-mobile anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-12@1x.png" />
+        <div class="group-154-C61RwL">
+          <img class="cityscan-RrQxtm" src="img/cityscan-24@1x.png" />
+          <img class="cityscan-CWcvtF" src="img/cityscan-1@1x.png" />
+        </div>
+        <div class="repeat-grid-1-C61RwL">
+          <div class="group-155-mrdmCX">
+            <div class="surface-FqbzgS"></div>
+            <div class="label-left-FqbzgS font-class-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-FqbzgS">
+              <img class="ellipse-1-PxmSLm" src="img/ellipse-1-9@1x.png" />
+              <div class="label-left-PxmSLm font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+          <div class="group-155-nVb0xz">
+            <div class="surface-YaAxNQ"></div>
+            <div class="label-left-YaAxNQ font-class-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-YaAxNQ">
+              <img class="ellipse-1-kbd9l3" src="img/ellipse-1-9@1x.png" />
+              <div class="label-left-kbd9l3 font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+          <div class="group-155-p2pFTD">
+            <div class="surface-I0xz2k"></div>
+            <div class="label-left-I0xz2k font-class-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-I0xz2k">
+              <img class="ellipse-1-IVNl5o" src="img/ellipse-1-9@1x.png" />
+              <div class="label-left-IVNl5o font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+        </div>
+        <a href="menu.html">
+          <div class="iconnaviga-onmenu24px-C61RwL"><img class="x-color-d0ekLC" src="img/--color@1x.png" /></div
+        ></a>
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-12@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020-24@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020-25@1x.png" />
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="team-mobile-2 anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-17@1x.png" />
+        <div class="group-154-C61RwL">
+          <img class="cityscan-RrQxtm" src="img/cityscan-24@1x.png" />
+          <img class="cityscan-CWcvtF" src="img/cityscan-1@1x.png" />
+        </div>
+        <a href="menu.html">
+          <div class="iconnaviga-onmenu24px-C61RwL"><img class="x-color-d0ekLC" src="img/--color-4@1x.png" /></div
+        ></a>
+        <div class="repeat-grid-3-C61RwL">
+          <div class="group-155-A1Rl2I">
+            <div class="label-left-xntkgo font-class-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-xntkgo">
+              <img class="ellipse-1-Q7mziJ" src="img/ellipse-1-12@1x.png" />
+              <div class="label-left-Q7mziJ font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+          <div class="group-155-xCHdqh">
+            <div class="label-left-Zic7gv font-class-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-Zic7gv">
+              <img class="ellipse-1-Ptq63a" src="img/ellipse-1-12@1x.png" />
+              <div class="label-left-Ptq63a font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+          <div class="group-155-vEpljQ">
+            <div class="label-left-x2B4Tg font-class-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-x2B4Tg">
+              <img class="ellipse-1-upzJL9" src="img/ellipse-1-12@1x.png" />
+              <div class="label-left-upzJL9 font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+        </div>
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-17@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020-34@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020-35@1x.png" />
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="team-mobile-1 anima-screen">
+        <div class="repeat-grid-2-C61RwL">
+          <div class="group-155-jHv1io">
+            <div class="label-left-NyvGoT font-class-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-NyvGoT">
+              <img class="ellipse-1-uMVDhF" src="img/ellipse-1-15@1x.png" />
+              <div class="label-left-uMVDhF font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+          <div class="group-155-UijoTc">
+            <div class="label-left-MgQB8z font-class-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-MgQB8z">
+              <img class="ellipse-1-XW8cvA" src="img/ellipse-1-15@1x.png" />
+              <div class="label-left-XW8cvA font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+          <div class="group-155-z3fagW">
+            <div class="label-left-ko6b77 font-class-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint
+            </div>
+            <div class="group-160-ko6b77">
+              <img class="ellipse-1-mCM9Mx" src="img/ellipse-1-15@1x.png" />
+              <div class="label-left-mCM9Mx font-class-1">Lorem Ipsum</div>
+            </div>
+          </div>
+        </div>
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-22@1x.png" />
+        <div class="group-154-C61RwL">
+          <img class="cityscan-RrQxtm" src="img/cityscan-24@1x.png" />
+          <img class="cityscan-CWcvtF" src="img/cityscan-1@1x.png" />
+        </div>
+        <a href="menu.html">
+          <div class="iconnaviga-onmenu24px-C61RwL"><img class="x-color-d0ekLC" src="img/--color-4@1x.png" /></div
+        ></a>
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-21@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020-34@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020-43@1x.png" />
+      </div>
+    </div>
+  </body>
+</html>
