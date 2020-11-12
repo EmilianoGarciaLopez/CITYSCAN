@@ -57,17 +57,28 @@ opacity: 0;transform: scale(1.1);
   display: block;
 opacity: 0;transform: translate(0, 25px);
 }
-.bp3-anima-animate-enter6 {
-  animation: bp3-anima-animate-enter6-frames 0.20s ease 0.00s 1 normal forwards;
-  display: block;
-opacity: 0;transform: scale(1.1);
-}
-.bp3-anima-animate-enter7 {
-  animation: bp3-anima-animate-enter7-frames 0.20s ease 0.00s 1 normal forwards;
-  display: block;
-opacity: 0;transform: translate(0, 25px);
-}
 .font-class-1 {
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-10 {
+  color: var(--suva-gray);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.80px;
+}
+.font-class-2 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+}
+.font-class-3 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 20px;
@@ -76,43 +87,7 @@ opacity: 0;transform: translate(0, 25px);
   letter-spacing: 0.40px;
   line-height: 40px;
 }
-.font-class-10 {
-  color: var(--white);
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: -0.13px;
-}
-.font-class-2 {
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-3 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1.25px;
-  line-height: 16px;
-}
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1.07px;
-}
-.font-class-5 {
-  color: var(--white);
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.24px;
-}
-.font-class-6 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 32px;
@@ -120,7 +95,14 @@ opacity: 0;transform: translate(0, 25px);
   font-weight: 400;
   letter-spacing: -0.26px;
 }
-.font-class-7 {
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+}
+.font-class-6 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 14px;
@@ -129,21 +111,30 @@ opacity: 0;transform: translate(0, 25px);
   letter-spacing: 0.28px;
   line-height: 40px;
 }
+.font-class-7 {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
 .font-class-8 {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  line-height: 22px;
+}
+.font-class-9 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.16px;
-}
-.font-class-9 {
-  color: var(--suva-gray);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 9px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.80px;
 }
 .menu {
   background-color: var(--licorice);
@@ -182,15 +173,6 @@ opacity: 0;transform: translate(0, 25px);
   position: absolute;
   top: -7px;
   width: 268px;
-}
-.menu .divider-2V1Wct {
-  background-color: var(--white-2);
-  height: 1px;
-  left: 0px;
-  opacity: 0.6;
-  position: absolute;
-  top: 102px;
-  width: 414px;
 }
 .menu .divider-AQVGOI {
   background-color: var(--white-2);
@@ -237,23 +219,13 @@ opacity: 0;transform: translate(0, 25px);
   width: 414px;
 opacity: 0;transform: translate(0, 25px);
 }
-.menu .group-163-C61RwL {
-  background-color: transparent;
-  display: block;
-  height: 104px;
-  left: 71px;
-  position: absolute;
-  top: 417px;
-  width: 414px;
-opacity: 0;transform: translate(0, 25px);
-}
 .menu .group-164-C61RwL {
   background-color: transparent;
   display: block;
   height: 104px;
   left: 71px;
   position: absolute;
-  top: 608px;
+  top: 479px;
   width: 414px;
 opacity: 0;transform: translate(0, 25px);
 }
@@ -263,41 +235,15 @@ opacity: 0;transform: translate(0, 25px);
   height: 104px;
   left: 71px;
   position: absolute;
-  top: 800px;
+  top: 734px;
   width: 414px;
 opacity: 0;transform: translate(0, 25px);
 }
-.menu .label-left-2V1Wct {
-  background-color: transparent;
-  color: var(--white);
-  display: block;
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 0px;
-  letter-spacing: -0.32px;
-  line-height: 22px;
-  position: absolute;
-  text-align: left;
-  top: 16px;
-  white-space: nowrap;
-  width: auto;
-opacity: 0;transform: scale(1.1);
-}
 .menu .label-left-AQVGOI {
   background-color: transparent;
-  color: var(--white);
   display: block;
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
   height: auto;
   left: 0px;
-  letter-spacing: -0.32px;
-  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 16px;
@@ -307,16 +253,9 @@ opacity: 0;transform: scale(1.1);
 }
 .menu .label-left-L8UHM8 {
   background-color: transparent;
-  color: var(--white);
   display: block;
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
   height: auto;
   left: 0px;
-  letter-spacing: -0.32px;
-  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 16px;
@@ -326,16 +265,9 @@ opacity: 0;transform: scale(1.1);
 }
 .menu .label-left-ux1dxL {
   background-color: transparent;
-  color: var(--white);
   display: block;
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
   height: auto;
   left: 0px;
-  letter-spacing: -0.32px;
-  line-height: 22px;
   position: absolute;
   text-align: left;
   top: 16px;
@@ -401,16 +333,6 @@ to{opacity: 1;transform: scale(1);}
 from{opacity: 0;transform: translate(0, 25px);}
 to{opacity: 1;transform: translate(0,0);}
 }
-@keyframes bp3-anima-animate-enter6-frames {
-
-from{opacity: 0;transform: scale(1.1);}
-to{opacity: 1;transform: scale(1);}
-}
-@keyframes bp3-anima-animate-enter7-frames {
-
-from{opacity: 0;transform: translate(0, 25px);}
-to{opacity: 1;transform: translate(0,0);}
-}
 /* screen - menu-1 */
 
 .border-class-1 {
@@ -446,17 +368,28 @@ opacity: 0;transform: scale(1.1);
   display: block;
 opacity: 0;transform: translate(0, 25px);
 }
-.bp1-anima-animate-enter6 {
-  animation: bp1-anima-animate-enter6-frames 0.20s ease 0.00s 1 normal forwards;
-  display: block;
-opacity: 0;transform: scale(1.1);
-}
-.bp1-anima-animate-enter7 {
-  animation: bp1-anima-animate-enter7-frames 0.20s ease 0.00s 1 normal forwards;
-  display: block;
-opacity: 0;transform: translate(0, 25px);
-}
 .font-class-1 {
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-10 {
+  color: var(--suva-gray);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.80px;
+}
+.font-class-2 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+}
+.font-class-3 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 20px;
@@ -465,43 +398,7 @@ opacity: 0;transform: translate(0, 25px);
   letter-spacing: 0.40px;
   line-height: 40px;
 }
-.font-class-10 {
-  color: var(--white);
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: -0.13px;
-}
-.font-class-2 {
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-3 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1.25px;
-  line-height: 16px;
-}
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1.07px;
-}
-.font-class-5 {
-  color: var(--white);
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.24px;
-}
-.font-class-6 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 32px;
@@ -509,7 +406,14 @@ opacity: 0;transform: translate(0, 25px);
   font-weight: 400;
   letter-spacing: -0.26px;
 }
-.font-class-7 {
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+}
+.font-class-6 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 14px;
@@ -518,21 +422,30 @@ opacity: 0;transform: translate(0, 25px);
   letter-spacing: 0.28px;
   line-height: 40px;
 }
+.font-class-7 {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
 .font-class-8 {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  line-height: 22px;
+}
+.font-class-9 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.16px;
-}
-.font-class-9 {
-  color: var(--suva-gray);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 9px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.80px;
 }
 .menu-1 {
   background-color: var(--licorice);
@@ -571,15 +484,6 @@ opacity: 0;transform: translate(0, 25px);
   position: absolute;
   top: -7px;
   width: 268px;
-}
-.menu-1 .divider-2V1Wct {
-  background-color: var(--white-2);
-  height: 1px;
-  left: 0px;
-  opacity: 0.6;
-  position: absolute;
-  top: 69px;
-  width: 279px;
 }
 .menu-1 .divider-AQVGOI {
   background-color: var(--white-2);
@@ -626,23 +530,13 @@ opacity: 0;transform: translate(0, 25px);
   width: 279px;
 opacity: 0;transform: translate(0, 25px);
 }
-.menu-1 .group-163-C61RwL {
-  background-color: transparent;
-  display: block;
-  height: 70px;
-  left: 40px;
-  position: absolute;
-  top: 345px;
-  width: 279px;
-opacity: 0;transform: translate(0, 25px);
-}
 .menu-1 .group-164-C61RwL {
   background-color: transparent;
   display: block;
   height: 70px;
   left: 40px;
   position: absolute;
-  top: 474px;
+  top: 388px;
   width: 279px;
 opacity: 0;transform: translate(0, 25px);
 }
@@ -652,28 +546,9 @@ opacity: 0;transform: translate(0, 25px);
   height: 71px;
   left: 40px;
   position: absolute;
-  top: 603px;
+  top: 561px;
   width: 279px;
 opacity: 0;transform: translate(0, 25px);
-}
-.menu-1 .label-left-2V1Wct {
-  background-color: transparent;
-  color: var(--white);
-  display: block;
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 27px;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 0px;
-  letter-spacing: -0.22px;
-  line-height: 15px;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  white-space: nowrap;
-  width: auto;
-opacity: 0;transform: scale(1.1);
 }
 .menu-1 .label-left-AQVGOI {
   background-color: transparent;
@@ -790,16 +665,6 @@ to{opacity: 1;transform: scale(1);}
 from{opacity: 0;transform: translate(0, 25px);}
 to{opacity: 1;transform: translate(0,0);}
 }
-@keyframes bp1-anima-animate-enter6-frames {
-
-from{opacity: 0;transform: scale(1.1);}
-to{opacity: 1;transform: scale(1);}
-}
-@keyframes bp1-anima-animate-enter7-frames {
-
-from{opacity: 0;transform: translate(0, 25px);}
-to{opacity: 1;transform: translate(0,0);}
-}
 /* screen - menu-2 */
 
 .border-class-1 {
@@ -835,17 +700,28 @@ opacity: 0;transform: scale(1.1);
   display: block;
 opacity: 0;transform: translate(0, 25px);
 }
-.bp2-anima-animate-enter6 {
-  animation: bp2-anima-animate-enter6-frames 0.20s ease 0.00s 1 normal forwards;
-  display: block;
-opacity: 0;transform: scale(1.1);
-}
-.bp2-anima-animate-enter7 {
-  animation: bp2-anima-animate-enter7-frames 0.20s ease 0.00s 1 normal forwards;
-  display: block;
-opacity: 0;transform: translate(0, 25px);
-}
 .font-class-1 {
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.font-class-10 {
+  color: var(--suva-gray);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.80px;
+}
+.font-class-2 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  line-height: 16px;
+}
+.font-class-3 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 20px;
@@ -854,43 +730,7 @@ opacity: 0;transform: translate(0, 25px);
   letter-spacing: 0.40px;
   line-height: 40px;
 }
-.font-class-10 {
-  color: var(--white);
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: -0.13px;
-}
-.font-class-2 {
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-style: normal;
-  font-weight: 400;
-}
-.font-class-3 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1.25px;
-  line-height: 16px;
-}
 .font-class-4 {
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 1.07px;
-}
-.font-class-5 {
-  color: var(--white);
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.24px;
-}
-.font-class-6 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 32px;
@@ -898,7 +738,14 @@ opacity: 0;transform: translate(0, 25px);
   font-weight: 400;
   letter-spacing: -0.26px;
 }
-.font-class-7 {
+.font-class-5 {
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.07px;
+}
+.font-class-6 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 14px;
@@ -907,21 +754,30 @@ opacity: 0;transform: translate(0, 25px);
   letter-spacing: 0.28px;
   line-height: 40px;
 }
+.font-class-7 {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
 .font-class-8 {
+  color: var(--white);
+  font-family: 'Roboto Mono', Helvetica, Arial, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  line-height: 22px;
+}
+.font-class-9 {
   color: var(--white);
   font-family: 'Roboto Mono', Helvetica, Arial, serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.16px;
-}
-.font-class-9 {
-  color: var(--suva-gray);
-  font-family: 'Roboto', Helvetica, Arial, serif;
-  font-size: 9px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.80px;
 }
 .menu-2 {
   background-color: var(--licorice);
@@ -960,15 +816,6 @@ opacity: 0;transform: translate(0, 25px);
   position: absolute;
   top: -7px;
   width: 268px;
-}
-.menu-2 .divider-2V1Wct {
-  background-color: var(--white-2);
-  height: 1px;
-  left: 0px;
-  opacity: 0.6;
-  position: absolute;
-  top: 78px;
-  width: 312px;
 }
 .menu-2 .divider-AQVGOI {
   background-color: var(--white-2);
@@ -1015,23 +862,13 @@ opacity: 0;transform: translate(0, 25px);
   width: 312px;
 opacity: 0;transform: translate(0, 25px);
 }
-.menu-2 .group-163-C61RwL {
-  background-color: transparent;
-  display: block;
-  height: 79px;
-  left: 40px;
-  position: absolute;
-  top: 333px;
-  width: 312px;
-opacity: 0;transform: translate(0, 25px);
-}
 .menu-2 .group-164-C61RwL {
   background-color: transparent;
   display: block;
   height: 79px;
   left: 40px;
   position: absolute;
-  top: 477px;
+  top: 366px;
   width: 312px;
 opacity: 0;transform: translate(0, 25px);
 }
@@ -1041,28 +878,9 @@ opacity: 0;transform: translate(0, 25px);
   height: 79px;
   left: 40px;
   position: absolute;
-  top: 621px;
+  top: 544px;
   width: 312px;
 opacity: 0;transform: translate(0, 25px);
-}
-.menu-2 .label-left-2V1Wct {
-  background-color: transparent;
-  color: var(--white);
-  display: block;
-  font-family: 'Roboto Mono', Helvetica, Arial, serif;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 0px;
-  letter-spacing: -0.24px;
-  line-height: 17px;
-  position: absolute;
-  text-align: left;
-  top: 11px;
-  white-space: nowrap;
-  width: auto;
-opacity: 0;transform: scale(1.1);
 }
 .menu-2 .label-left-AQVGOI {
   background-color: transparent;
@@ -1175,16 +993,6 @@ from{opacity: 0;transform: scale(1.1);}
 to{opacity: 1;transform: scale(1);}
 }
 @keyframes bp2-anima-animate-enter5-frames {
-
-from{opacity: 0;transform: translate(0, 25px);}
-to{opacity: 1;transform: translate(0,0);}
-}
-@keyframes bp2-anima-animate-enter6-frames {
-
-from{opacity: 0;transform: scale(1.1);}
-to{opacity: 1;transform: scale(1);}
-}
-@keyframes bp2-anima-animate-enter7-frames {
 
 from{opacity: 0;transform: translate(0, 25px);}
 to{opacity: 1;transform: translate(0,0);}
