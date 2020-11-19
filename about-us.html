@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <title>cityscan</title>
+    <meta
+      name="description"
+      content="We create state-of-the-art technological solutions, unique in the market and designed to meet the specific needs of our clients to solve the challenges currently faced in the development and management of the infrastructure for the transport of people and goods."
+    />
+    <meta name="og:type" content="website" />
+    <meta name="og:site_name" content="cityscan" />
+    <meta name="og:title" content="cityscan" />
+    <meta
+      name="og:description"
+      content="We create state-of-the-art technological solutions, unique in the market and designed to meet the specific needs of our clients to solve the challenges currently faced in the development and management of the infrastructure for the transport of people and goods."
+    />
+    <meta name="og:image" content="./img/captura-de-pantalla-2020-09-02-a-las-11-25-52.png" />
+    <meta name="twitter:card" content="photo" />
+    <meta name="twitter:title" content="cityscan" />
+    <meta
+      name="twitter:description"
+      content="We create state-of-the-art technological solutions, unique in the market and designed to meet the specific needs of our clients to solve the challenges currently faced in the development and management of the infrastructure for the transport of people and goods."
+    />
+    <meta name="twitter:image:width" content="320px" />
+    <meta name="twitter:image:height" content="320px" />
+    <meta name="twitter:image:src" content="./img/captura-de-pantalla-2020-09-02-a-las-11-25-52.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQQX1EY3G4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FQQX1EY3G4");
+    </script>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="cityscan" />
+    <link rel="stylesheet" type="text/css" href="css/about-us.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:500|Roboto+Mono:400");
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(18, 18, 18, 1)">
+    <input type="hidden" id="anPageName" name="page" value="about-us" />
+    <div class="anima-container-center-horizontal">
+      <div class="about-us anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1@1x.png" />
+        <a href="projects-mobil.html">
+          <div class="dark-butto-y-6-states-C61RwL">
+            <div class="container-JvHRlp">
+              <div class="states-dar-ry-content-y4vMFQ">
+                <div class="states-KWgPu2"></div>
+                <div class="primary-KWgPu2 anima-hidden"></div>
+                <div class="states-xOki46"></div>
+              </div>
+              <img class="pressed-y4vMFQ" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-JvHRlp font-class-3">FINISHED PROJECTS</div>
+          </div></a
+        >
+        <div class="dark-butto-y-6-states-VMr6Om">
+          <div class="container-oAHA1P">
+            <div class="states-dar-ry-content-bHsSdK">
+              <div class="states-Ytz1o3"></div>
+              <div class="primary-Ytz1o3 anima-hidden"></div>
+              <div class="states-xxU2vv"></div>
+            </div>
+            <img class="pressed-bHsSdK" src="img/pressed@1x.png" />
+          </div>
+          <div class="x-label-oAHA1P font-class-3">ABOUT US</div>
+        </div>
+        <a href="contact-us.html">
+          <div class="dark-butto-y-6-states-mzXdH9">
+            <div class="container-M34txU">
+              <div class="states-dar-ry-content-azSDlV">
+                <div class="states-SfkFMd"></div>
+                <div class="primary-SfkFMd anima-hidden"></div>
+                <div class="states-BhcHqg"></div>
+              </div>
+              <img class="pressed-azSDlV" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-M34txU font-class-3">CONTACT US</div>
+          </div></a
+        >
+        <a href="team.html">
+          <div class="dark-butto-y-6-states-QxM5SU">
+            <div class="container-bqLsCL">
+              <div class="states-dar-ry-content-GyEpv3">
+                <div class="states-xGRjBs"></div>
+                <div class="primary-xGRjBs anima-hidden"></div>
+                <div class="states-Mfhn70"></div>
+              </div>
+              <img class="pressed-GyEpv3" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-bqLsCL font-class-3">TEAM</div>
+          </div></a
+        >
+        <div class="group-5-C61RwL anima-smart-layers-pointers">
+          <div class="group-2-iZjIT4">
+            <div class="states-dar-ce-content-x9VTG4"></div>
+            <div class="dark-theme-ader-label-x9VTG4">
+              <div class="label-left-jnggzD">What we beleive</div>
+              <div class="divider-jnggzD"></div>
+            </div>
+            <div class="label-left-x9VTG4 font-class-1">
+              With the advent of the technological era, the world has seen tremendous change, but many cities are forced
+              to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing
+              standards.<br /><br />Cityscan aims to resolve this issue by fundamentally changing the structure by which
+              technology infrastructure is financed and implemented...
+            </div>
+            <div class="dark-theme-ader-label-rf624A"></div>
+          </div>
+          <div class="group-158-iZjIT4">
+            <div class="states-dar-ce-content-rMr8rt"></div>
+            <img class="layer-0-rMr8rt" src="img/layer-0@1x.png" />
+          </div>
+        </div>
+        <div class="group-117-C61RwL anima-smart-layers-pointers">
+          <div class="group-8-Qgw4ic">
+            <div class="group-6-C6ONXr">
+              <div class="group-2-o3zmSZ">
+                <div class="states-dar-ce-content-TqEIsc"></div>
+              </div>
+              <div class="group-7-o3zmSZ">
+                <div class="states-dar-ce-content-9xIesf"></div>
+                <div class="dark-theme-ader-label-9xIesf">
+                  <div class="label-left-LB8D7n">Why we&#39;re better</div>
+                  <div class="divider-LB8D7n"></div>
+                </div>
+                <div class="label-left-9xIesf font-class-1">
+                  The business model that technology infrastructure companies currently employ is inherently flawed, as
+                  it does not account for the rapid rate at which new products obviate the existing generation.<br /><br />Cityscan
+                  instead operates on a concessionary basis, which allows us and our customers to remain at the
+                  forefront of cutting-edge innovations.
+                </div>
+                <div class="dark-theme-ader-label-CkDIZj"></div>
+              </div>
+            </div>
+          </div>
+          <img class="group-116-Qgw4ic" src="img/group-116@1x.png" />
+        </div>
+        <div class="group-119-C61RwL anima-smart-layers-pointers">
+          <div class="group-2-6O7KbK">
+            <div class="states-dar-ce-content-vBOVFA"></div>
+            <div class="dark-theme-ader-label-vBOVFA">
+              <div class="label-left-Jg2GWK">Our role</div>
+              <div class="divider-Jg2GWK"></div>
+            </div>
+            <div class="label-left-vBOVFA font-class-1">
+              The advancement of society is directly dependent on the development of new infrastructure and the
+              modernization of existing modes of transport. <br /><br />Cityscan leverages advantages in the
+              computational intelligence field to meet the increasing demands for quality, reliability, and safety in
+              transportation infrastructure.
+            </div>
+            <div class="dark-theme-ader-label-difsPJ"></div>
+          </div>
+          <div class="group-159-6O7KbK">
+            <div class="states-dar-ce-content-aUoamR"></div>
+            <img class="group-122-aUoamR" src="img/group-122@1x.png" />
+          </div>
+        </div>
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020@1x.png" />
+        <div class="group-154-C61RwL">
+          <img class="cityscan-RrQxtm" src="img/cityscan@1x.png" />
+          <img class="cityscan-CWcvtF" src="img/cityscan-1@1x.png" />
+        </div>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="finished-projects-tablet-1 anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-4@1x.png" />
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-4@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020@1x.png" />
+        <img class="cityscan-C61RwL" src="img/cityscan@1x.png" />
+        <img class="cityscan-VMr6Om" src="img/cityscan-1@1x.png" />
+        <a href="projects-mobil.html">
+          <div class="dark-butto-y-6-states-C61RwL">
+            <div class="container-JvHRlp">
+              <div class="states-dar-ry-content-y4vMFQ">
+                <div class="states-KWgPu2"></div>
+                <div class="primary-KWgPu2 anima-hidden"></div>
+                <div class="states-xOki46"></div>
+              </div>
+              <img class="pressed-y4vMFQ" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-JvHRlp font-class-3">FINISHED PROJECTS</div>
+          </div></a
+        >
+        <div class="dark-butto-y-6-states-VMr6Om">
+          <div class="container-oAHA1P">
+            <div class="states-dar-ry-content-bHsSdK">
+              <div class="states-Ytz1o3"></div>
+              <div class="primary-Ytz1o3 anima-hidden"></div>
+              <div class="states-xxU2vv"></div>
+            </div>
+            <img class="pressed-bHsSdK" src="img/pressed@1x.png" />
+          </div>
+          <div class="x-label-oAHA1P font-class-3">ABOUT US</div>
+        </div>
+        <a href="contact-us.html">
+          <div class="dark-butto-y-6-states-mzXdH9">
+            <div class="container-M34txU">
+              <div class="states-dar-ry-content-azSDlV">
+                <div class="states-SfkFMd"></div>
+                <div class="primary-SfkFMd anima-hidden"></div>
+                <div class="states-BhcHqg"></div>
+              </div>
+              <img class="pressed-azSDlV" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-M34txU font-class-3">CONTACT US</div>
+          </div></a
+        >
+        <a href="team.html">
+          <div class="dark-butto-y-6-states-QxM5SU">
+            <div class="container-bqLsCL">
+              <div class="states-dar-ry-content-GyEpv3">
+                <div class="states-xGRjBs"></div>
+                <div class="primary-xGRjBs anima-hidden"></div>
+                <div class="states-Mfhn70"></div>
+              </div>
+              <img class="pressed-GyEpv3" src="img/pressed@1x.png" />
+            </div>
+            <div class="x-label-bqLsCL font-class-3">TEAM</div>
+          </div></a
+        >
+        <div class="group-167-C61RwL">
+          <div class="group-2-Qrp718">
+            <div class="dark-theme-ader-label-a0iYc3">
+              <div class="label-left-3XxvFe font-class-6">What we beleive</div>
+              <div class="divider-3XxvFe"></div>
+            </div>
+            <div class="label-left-a0iYc3">
+              With the advent of the technological era, the world has seen tremendous change, but many cities are forced
+              to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing
+              standards.<br />Cityscan aims to resolve this issue by fundamentally changing the structure by which
+              technology infrastructure is financed and implemented...
+            </div>
+            <div class="dark-theme-ader-label-XfxSoH"></div>
+          </div>
+          <div class="surface-Qrp718"></div>
+          <div class="dark-theme-ader-label-Qrp718">
+            <div class="label-left-ZlAq6d font-class-6">Our role</div>
+            <div class="divider-ZlAq6d"></div>
+          </div>
+          <div class="label-left-Qrp718">
+            The advancement of society is directly dependent on the development of new infrastructure and the
+            modernization of existing modes of transport. <br />Cityscan leverages advantages in the computational
+            intelligence field to meet the increasing demands for quality, reliability, and safety in transportation
+            infrastructure.
+          </div>
+          <div class="dark-theme-ader-label-nTC0Mz"></div>
+          <div class="group-158-Qrp718">
+            <div class="states-dar-ce-content-d9shtN"></div>
+            <img class="layer-0-d9shtN" src="img/layer-0-1@1x.png" />
+          </div>
+          <div class="states-dar-ce-content-Qrp718"></div>
+          <div class="group-6-Qrp718">
+            <div class="group-2-hJlkx1">
+              <div class="states-dar-ce-content-Z0tvxX"></div>
+            </div>
+            <div class="states-dar-ce-content-hJlkx1"></div>
+            <div class="label-left-hJlkx1 font-class-6">Why we&#39;re better</div>
+            <div class="divider-hJlkx1"></div>
+            <div class="label-left-AOUoka font-class-8">
+              The business model that technology infrastructure companies currently employ is inherently flawed, as it
+              does not account for the rapid rate at which new products obviate the existing generation.<br />Cityscan
+              instead operates on a concessionary basis, which allows us and our customers to remain at the forefront of
+              cutting-edge innovations.
+            </div>
+            <div class="divider-AOUoka"></div>
+          </div>
+          <img class="group-19-Qrp718" src="img/group-18@1x.png" />
+          <img class="line-1-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-2-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-3-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-4-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-5-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-6-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-7-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-8-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="line-9-Qrp718" src="img/line-1-1@1x.png" />
+          <img class="group-99-Qrp718" src="img/group-98@1x.png" />
+          <img class="line-10-Qrp718" src="img/line-10-1@1x.png" />
+          <img class="line-11-Qrp718" src="img/line-10-1@1x.png" />
+          <img class="line-12-Qrp718" src="img/line-10-1@1x.png" />
+          <img class="line-13-Qrp718" src="img/line-10-1@1x.png" />
+          <div class="group-107-Qrp718">
+            <div class="group-106-ULxAne">
+              <div class="rectangle-33-qxnMXB border-class-1"></div>
+              <div class="group-102-qxnMXB">
+                <div class="group-101-AHew7m">
+                  <div class="group-100-IXNDG4">
+                    <div class="world-nCfRw0 font-class-2">World</div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-105-qxnMXB">
+                <div class="group-104-fAgNp7">
+                  <div class="group-103-5JDm4i">
+                    <img class="path-81-Vv5uzC" src="img/path-81-1@1x.png" />
+                    <img class="path-82-Vv5uzC" src="img/path-82-1@1x.png" />
+                    <img class="path-83-Vv5uzC" src="img/path-83-1@1x.png" />
+                    <img class="path-84-Vv5uzC" src="img/path-84-1@1x.png" />
+                    <img class="path-85-Vv5uzC" src="img/path-85-1@1x.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="path-86-Qrp718" src="img/path-86-1@1x.png" />
+          <div class="group-115-Qrp718">
+            <div class="group-114-SIrWjw">
+              <img class="path-87-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-88-5RVPb1" src="img/path-88-1@1x.png" />
+              <img class="path-89-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-90-5RVPb1" src="img/path-90-1@1x.png" />
+              <img class="path-91-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-92-5RVPb1" src="img/path-92-1@1x.png" />
+              <img class="path-93-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-94-5RVPb1" src="img/path-94-1@1x.png" />
+              <img class="path-95-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-96-5RVPb1" src="img/path-96-1@1x.png" />
+              <img class="path-97-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-98-5RVPb1" src="img/path-98-1@1x.png" />
+              <img class="path-99-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-100-5RVPb1" src="img/path-100-1@1x.png" />
+              <img class="path-101-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-102-5RVPb1" src="img/path-102-1@1x.png" />
+              <img class="path-103-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-104-5RVPb1" src="img/path-104-1@1x.png" />
+              <img class="path-105-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-106-5RVPb1" src="img/path-106-1@1x.png" />
+              <img class="path-107-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-108-5RVPb1" src="img/path-104-1@1x.png" />
+              <img class="path-109-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-110-5RVPb1" src="img/path-110-1@1x.png" />
+              <img class="path-111-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-112-5RVPb1" src="img/path-90-1@1x.png" />
+              <img class="path-113-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-114-5RVPb1" src="img/path-94-1@1x.png" />
+              <img class="path-115-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-116-5RVPb1" src="img/path-116-1@1x.png" />
+              <img class="path-117-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-118-5RVPb1" src="img/path-118-1@1x.png" />
+              <img class="path-119-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-120-5RVPb1" src="img/path-120-1@1x.png" />
+              <img class="path-121-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-122-5RVPb1" src="img/path-122-1@1x.png" />
+              <img class="path-123-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-124-5RVPb1" src="img/path-124-1@1x.png" />
+              <img class="path-125-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-126-5RVPb1" src="img/path-126-1@1x.png" />
+              <img class="path-127-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-128-5RVPb1" src="img/path-128-1@1x.png" />
+              <img class="path-129-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-130-5RVPb1" src="img/path-130-1@1x.png" />
+              <img class="path-131-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-132-5RVPb1" src="img/path-132-1@1x.png" />
+              <img class="path-133-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-134-5RVPb1" src="img/path-134-1@1x.png" />
+              <img class="path-135-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-136-5RVPb1" src="img/path-136-1@1x.png" />
+              <img class="path-137-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-138-5RVPb1" src="img/path-138-1@1x.png" />
+              <img class="path-139-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-140-5RVPb1" src="img/path-140-1@1x.png" />
+              <img class="path-141-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-142-5RVPb1" src="img/path-142-1@1x.png" />
+              <img class="path-143-5RVPb1" src="img/path-143-1@1x.png" />
+              <img class="path-144-5RVPb1" src="img/path-144-1@1x.png" />
+              <img class="path-145-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-146-5RVPb1" src="img/path-146-1@1x.png" />
+              <img class="path-147-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-148-5RVPb1" src="img/path-148-1@1x.png" />
+              <img class="path-149-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-150-5RVPb1" src="img/path-150-1@1x.png" />
+              <img class="path-151-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-152-5RVPb1" src="img/path-152-1@1x.png" />
+              <img class="path-153-5RVPb1" src="img/path-87-1@1x.png" />
+              <img class="path-154-5RVPb1" src="img/path-154-1@1x.png" />
+              <div class="group-110-5RVPb1">
+                <div class="group-109-VovFQD">
+                  <div class="group-108-JnR8Uh">
+                    <div class="source-ray-nd-biology-4xoYfp font-class-2">
+                      Source: Ray Kurzweil (2005, updated to 2016). The Singularity Is Near: When Humans Transcend
+                      Biology.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-113-5RVPb1">
+                <div class="group-112-C9uwh5">
+                  <div class="group-111-ROdA7V">
+                    <div class="cc-by-1Jcx8n font-class-2">CC BY</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="group-122-Qrp718" src="img/group-122-1@1x.png" />
+        </div>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="finished-projects-tablet-3 anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-8@1x.png" />
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-11@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020-16@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020-16@1x.png" />
+        <img class="cityscan-C61RwL" src="img/cityscan-16@1x.png" />
+        <img class="cityscan-VMr6Om" src="img/cityscan-17@1x.png" />
+        <a href="projects-mobil.html">
+          <div class="dark-butto-y-6-states-C61RwL">
+            <div class="container-JvHRlp">
+              <div class="states-dar-ry-content-y4vMFQ">
+                <div class="states-KWgPu2"></div>
+                <div class="primary-KWgPu2 anima-hidden"></div>
+                <div class="states-xOki46"></div>
+              </div>
+              <img class="pressed-y4vMFQ" src="img/pressed-38@1x.png" />
+            </div>
+            <div class="x-label-JvHRlp font-class-4">FINISHED PROJECTS</div>
+          </div></a
+        >
+        <div class="dark-butto-y-6-states-VMr6Om">
+          <div class="container-oAHA1P">
+            <div class="states-dar-ry-content-bHsSdK">
+              <div class="states-Ytz1o3"></div>
+              <div class="primary-Ytz1o3 anima-hidden"></div>
+              <div class="states-xxU2vv"></div>
+            </div>
+            <img class="pressed-bHsSdK" src="img/pressed-38@1x.png" />
+          </div>
+          <div class="x-label-oAHA1P font-class-4">ABOUT US</div>
+        </div>
+        <a href="contact-us.html">
+          <div class="dark-butto-y-6-states-mzXdH9">
+            <div class="container-M34txU">
+              <div class="states-dar-ry-content-azSDlV">
+                <div class="states-SfkFMd"></div>
+                <div class="primary-SfkFMd anima-hidden"></div>
+                <div class="states-BhcHqg"></div>
+              </div>
+              <img class="pressed-azSDlV" src="img/pressed-38@1x.png" />
+            </div>
+            <div class="x-label-M34txU font-class-4">CONTACT US</div>
+          </div></a
+        >
+        <a href="team.html">
+          <div class="dark-butto-y-6-states-QxM5SU">
+            <div class="container-bqLsCL">
+              <div class="states-dar-ry-content-GyEpv3">
+                <div class="states-xGRjBs"></div>
+                <div class="primary-xGRjBs anima-hidden"></div>
+                <div class="states-Mfhn70"></div>
+              </div>
+              <img class="pressed-GyEpv3" src="img/pressed-38@1x.png" />
+            </div>
+            <div class="x-label-bqLsCL font-class-4">TEAM</div>
+          </div></a
+        >
+        <div class="group-167-C61RwL">
+          <div class="group-2-Qrp718">
+            <div class="dark-theme-ader-label-a0iYc3">
+              <div class="label-left-3XxvFe">What we beleive</div>
+              <div class="divider-3XxvFe"></div>
+            </div>
+            <div class="label-left-a0iYc3">
+              With the advent of the technological era, the world has seen tremendous change, but many cities are forced
+              to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing
+              standards.<br />Cityscan aims to resolve this issue by fundamentally changing the structure by which
+              technology infrastructure is financed and implemented...
+            </div>
+            <div class="dark-theme-ader-label-XfxSoH"></div>
+          </div>
+          <div class="surface-Qrp718"></div>
+          <div class="dark-theme-ader-label-Qrp718">
+            <div class="label-left-ZlAq6d">Our role</div>
+            <div class="divider-ZlAq6d"></div>
+          </div>
+          <div class="label-left-Qrp718">
+            The advancement of society is directly dependent on the development of new infrastructure and the
+            modernization of existing modes of transport. <br />Cityscan leverages advantages in the computational
+            intelligence field to meet the increasing demands for quality, reliability, and safety in transportation
+            infrastructure.
+          </div>
+          <div class="dark-theme-ader-label-nTC0Mz"></div>
+          <div class="group-158-Qrp718">
+            <div class="states-dar-ce-content-d9shtN"></div>
+            <img class="layer-0-d9shtN" src="img/layer-0-2@1x.png" />
+          </div>
+          <img
+            class="states-dar-ce-content-Qrp718"
+            src="img/states-dark----surface-containers-on-surface-content@1x.png"
+          />
+          <img class="group-6-Qrp718" src="img/group-6@1x.png" />
+          <img class="group-19-Qrp718" src="img/group-18-1@1x.png" />
+          <img class="line-1-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-2-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-3-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-4-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-5-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-6-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-7-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-8-Qrp718" src="img/line-1-2@1x.png" />
+          <img class="line-9-Qrp718" src="img/line-1-2@1x.png" />
+          <div class="group-99-Qrp718">
+            <div class="group-98-9dTs4T">
+              <div class="group-25-3rzXbV">
+                <div class="group-24-thUySx">
+                  <div class="group-23-R7h04n">
+                    <img class="path-1-F2KRoT" src="img/path-1-2@1x.png" />
+                    <img class="path-2-F2KRoT" src="img/path-2-2@1x.png" />
+                    <img class="path-3-F2KRoT" src="img/path-3-2@1x.png" />
+                    <img class="path-4-F2KRoT" src="img/path-4-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-31-3rzXbV">
+                <div class="group-30-AvlKtn">
+                  <div class="group-29-OvEq8g">
+                    <img class="path-5-xbI942" src="img/path-1-2@1x.png" />
+                    <img class="path-6-xbI942" src="img/path-2-2@1x.png" />
+                    <img class="path-7-xbI942" src="img/path-7-2@1x.png" />
+                    <img class="path-8-xbI942" src="img/path-8-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-37-3rzXbV">
+                <div class="group-36-EpJhsA">
+                  <div class="group-35-QvC0nc">
+                    <img class="path-9-BSHDBw" src="img/path-1-2@1x.png" />
+                    <img class="path-10-BSHDBw" src="img/path-2-2@1x.png" />
+                    <img class="path-11-BSHDBw" src="img/path-11-2@1x.png" />
+                    <img class="path-12-BSHDBw" src="img/path-12-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-43-3rzXbV">
+                <div class="group-42-PBwnUL">
+                  <div class="group-41-H5jkM1">
+                    <img class="path-13-PAKNuZ" src="img/path-1-2@1x.png" />
+                    <img class="path-14-PAKNuZ" src="img/path-2-2@1x.png" />
+                    <img class="path-15-PAKNuZ" src="img/path-15-2@1x.png" />
+                    <img class="path-16-PAKNuZ" src="img/path-16-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-49-3rzXbV">
+                <div class="group-48-43fYri">
+                  <div class="group-47-un7ov4">
+                    <img class="path-17-fhpZkT" src="img/path-1-2@1x.png" />
+                    <img class="path-18-fhpZkT" src="img/path-15-2@1x.png" />
+                    <img class="path-19-fhpZkT" src="img/path-15-2@1x.png" />
+                    <img class="path-20-fhpZkT" src="img/path-12-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-55-3rzXbV">
+                <div class="group-54-29J8tx">
+                  <div class="group-53-3QJEuD">
+                    <img class="path-21-9sv9ib" src="img/path-21-2@1x.png" />
+                    <img class="path-22-9sv9ib" src="img/path-22-2@1x.png" />
+                    <img class="path-23-9sv9ib" src="img/path-22-2@1x.png" />
+                    <img class="path-24-9sv9ib" src="img/path-8-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-61-3rzXbV">
+                <div class="group-60-UThQe7">
+                  <div class="group-59-51ctmq">
+                    <img class="path-25-KNqpsx" src="img/path-21-2@1x.png" />
+                    <img class="path-26-KNqpsx" src="img/path-8-2@1x.png" />
+                    <img class="path-27-KNqpsx" src="img/path-22-2@1x.png" />
+                    <img class="path-28-KNqpsx" src="img/path-12-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-67-3rzXbV">
+                <div class="group-66-6k7I0N">
+                  <div class="group-65-m2Ufxb">
+                    <img class="path-29-L60Z9X" src="img/path-21-2@1x.png" />
+                    <img class="path-30-L60Z9X" src="img/path-16-2@1x.png" />
+                    <img class="path-31-L60Z9X" src="img/path-1-2@1x.png" />
+                    <img class="path-32-L60Z9X" src="img/path-8-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-73-3rzXbV">
+                <div class="group-72-hnx326">
+                  <div class="group-71-QEq1kK">
+                    <img class="path-33-cwp9x7" src="img/path-21-2@1x.png" />
+                    <img class="path-34-cwp9x7" src="img/path-8-2@1x.png" />
+                    <img class="path-35-cwp9x7" src="img/path-1-2@1x.png" />
+                    <img class="path-36-cwp9x7" src="img/path-36-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="group-76-3rzXbV">
+                <div class="group-75-x6qQxx">
+                  <div class="group-74-ksYzxs">
+                    <div class="x10-million-hz-WbxyLW font-class-2">10 million Hz</div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-79-3rzXbV">
+                <div class="group-78-Ex0VDE"><img class="group-77-rYFEng" src="img/group-77-2@1x.png" /></div>
+              </div>
+              <div class="group-85-3rzXbV">
+                <div class="group-84-2kvGpg"><img class="group-83-kNPJSL" src="img/group-83-2@1x.png" /></div>
+              </div>
+              <div class="group-91-3rzXbV">
+                <div class="group-90-UPYfi7"><img class="group-89-0KGHud" src="img/group-89-2@1x.png" /></div>
+              </div>
+              <div class="group-97-3rzXbV">
+                <div class="group-96-vwBfIX"><img class="group-95-mKPbAM" src="img/group-95-2@1x.png" /></div>
+              </div>
+            </div>
+          </div>
+          <img class="line-10-Qrp718" src="img/line-10-2@1x.png" />
+          <img class="line-11-Qrp718" src="img/line-10-2@1x.png" />
+          <img class="line-12-Qrp718" src="img/line-10-2@1x.png" />
+          <img class="line-13-Qrp718" src="img/line-10-2@1x.png" />
+          <div class="group-107-Qrp718">
+            <div class="group-106-ULxAne">
+              <div class="rectangle-33-qxnMXB border-class-1"></div>
+              <div class="group-102-qxnMXB">
+                <div class="group-101-AHew7m">
+                  <div class="group-100-IXNDG4">
+                    <div class="world-nCfRw0 font-class-2">World</div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-105-qxnMXB">
+                <div class="group-104-fAgNp7">
+                  <div class="group-103-5JDm4i">
+                    <img class="path-81-Vv5uzC" src="img/path-81-2@1x.png" />
+                    <img class="path-82-Vv5uzC" src="img/path-82-2@1x.png" />
+                    <img class="path-83-Vv5uzC" src="img/path-83-2@1x.png" />
+                    <img class="path-84-Vv5uzC" src="img/path-84-2@1x.png" />
+                    <img class="path-85-Vv5uzC" src="img/path-85-2@1x.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="path-86-Qrp718" src="img/path-86-2@1x.png" />
+          <img class="group-115-Qrp718" src="img/group-115@1x.png" />
+          <img class="group-122-Qrp718" src="img/group-122-2@1x.png" />
+        </div>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="about-us-mobile anima-screen">
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-12@1x.png" />
+        <div class="group-154-C61RwL">
+          <img class="cityscan-RrQxtm" src="img/cityscan-24@1x.png" />
+          <img class="cityscan-CWcvtF" src="img/cityscan-1@1x.png" />
+        </div>
+        <div class="group-2-C61RwL">
+          <div class="states-dar-ce-content-zUixHA"></div>
+          <div class="dark-theme-ader-label-zUixHA">
+            <div class="label-left-Xe9G7S font-class-6">What we beleive</div>
+            <div class="divider-Xe9G7S"></div>
+          </div>
+          <div class="label-left-zUixHA font-class-1">
+            With the advent of the technological era, the world has seen tremendous change, but many cities are forced
+            to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing
+            standards.<br /><br />Cityscan aims to resolve this issue by fundamentally changing the structure by which
+            technology infrastructure is financed and implemented...
+          </div>
+          <div class="dark-theme-ader-label-sdxwGy"></div>
+        </div>
+        <div class="states-dar-ce-content-C61RwL"></div>
+        <img class="layer-0-C61RwL" src="img/layer-0-3@1x.png" />
+        <div class="group-5-C61RwL anima-smart-layers-pointers">
+          <div class="group-2-iZjIT4">
+            <div class="states-dar-ce-content-x9VTG4"></div>
+            <div class="dark-theme-ader-label-x9VTG4">
+              <div class="label-left-jnggzD font-class-6">Why we&#39;re better</div>
+              <div class="divider-jnggzD"></div>
+            </div>
+            <div class="label-left-x9VTG4 font-class-1">
+              With the advent of the technological era, the world has seen tremendous change, but many cities are forced
+              to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing
+              standards.<br /><br />Cityscan aims to resolve this issue by fundamentally changing the structure by which
+              technology infrastructure is financed and implemented...
+            </div>
+            <div class="dark-theme-ader-label-rf624A"></div>
+          </div>
+          <div class="group-158-iZjIT4">
+            <div class="states-dar-ce-content-rMr8rt"></div>
+          </div>
+        </div>
+        <img class="group-116-C61RwL" src="img/group-116-1@1x.png" />
+        <div class="group-5-VMr6Om anima-smart-layers-pointers">
+          <div class="group-2-gxL9Zp">
+            <div class="states-dar-ce-content-xpfiiM"></div>
+            <div class="dark-theme-ader-label-xpfiiM">
+              <div class="label-left-PcN4nX font-class-6">Our role</div>
+              <div class="divider-PcN4nX"></div>
+            </div>
+            <div class="label-left-xpfiiM font-class-1">
+              The advancement of society is directly dependent on the development of new infrastructure and the
+              modernization of existing modes of transport. <br /><br />Cityscan leverages advantages in the
+              computational intelligence field to meet the increasing demands for quality, reliability, and safety in
+              transportation infrastructure.
+            </div>
+            <div class="dark-theme-ader-label-k2hvat"></div>
+          </div>
+          <div class="group-158-gxL9Zp">
+            <div class="states-dar-ce-content-6yt3nk"></div>
+          </div>
+        </div>
+        <div class="group-122-C61RwL">
+          <img class="path-155-17LMr8" src="img/path-155-3@1x.png" />
+          <img class="group-121-17LMr8" src="img/group-121-1@1x.png" />
+        </div>
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-12@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020-24@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020-25@1x.png" />
+        <a href="menu.html">
+          <div class="iconnaviga-onmenu24px-C61RwL"><img class="x-color-d0ekLC" src="img/--color@1x.png" /></div
+        ></a>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="about-us-mobile-2 anima-screen">
+        <div class="group-173-C61RwL">
+          <div class="group-2-n1vOno">
+            <div class="states-dar-ce-content-RaCyYH"></div>
+            <div class="dark-theme-ader-label-RaCyYH">
+              <div class="label-left-NBx47R font-class-9">What we beleive</div>
+              <div class="divider-NBx47R"></div>
+            </div>
+            <div class="label-left-RaCyYH">
+              With the advent of the technological era, the world has seen tremendous change, but many cities are forced
+              to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing
+              standards.<br />Cityscan aims to resolve this issue by fundamentally changing the structure by which
+              technology infrastructure is financed and implemented...
+            </div>
+            <div class="dark-theme-ader-label-aU12in"></div>
+          </div>
+          <div class="states-dar-ce-content-n1vOno"></div>
+          <img class="layer-0-n1vOno" src="img/layer-0-4@1x.png" />
+        </div>
+        <div class="group-177-C61RwL">
+          <div class="group-5-96B76r anima-smart-layers-pointers">
+            <div class="group-2-SE2UGh">
+              <div class="states-dar-ce-content-RL35CE"></div>
+              <div class="dark-theme-ader-label-RL35CE">
+                <div class="label-left-dL5mZo font-class-9">Why we&#39;re better</div>
+                <div class="divider-dL5mZo"></div>
+              </div>
+              <div class="label-left-RL35CE">
+                With the advent of the technological era, the world has seen tremendous change, but many cities are
+                forced to spend enormous monetary resources replacing their outdated technology to keep up with the
+                ever-changing standards.<br /><br />Cityscan aims to resolve this issue by fundamentally changing the
+                structure by which technology infrastructure is financed and implemented...
+              </div>
+              <div class="dark-theme-ader-label-mDBMVL"></div>
+            </div>
+            <div class="group-158-SE2UGh">
+              <div class="states-dar-ce-content-AW9QAn"></div>
+            </div>
+          </div>
+          <img class="group-116-96B76r" src="img/group-116-2@1x.png" />
+        </div>
+        <div class="group-176-C61RwL">
+          <div class="group-175-jxV5iz">
+            <div class="group-5-SerqlW anima-smart-layers-pointers">
+              <div class="group-2-mYqo4V">
+                <div class="states-dar-ce-content-ilQOxx"></div>
+                <div class="dark-theme-ader-label-ilQOxx">
+                  <div class="label-left-xP5rsT font-class-9">Our role</div>
+                  <div class="divider-xP5rsT"></div>
+                </div>
+                <div class="label-left-ilQOxx">
+                  The advancement of society is directly dependent on the development of new infrastructure and the
+                  modernization of existing modes of transport. <br /><br />Cityscan leverages advantages in the
+                  computational intelligence field to meet the increasing demands for quality, reliability, and safety
+                  in transportation infrastructure.
+                </div>
+                <div class="dark-theme-ader-label-rSBH61"></div>
+              </div>
+              <div class="group-158-mYqo4V">
+                <div class="states-dar-ce-content-abeCGS"></div>
+              </div>
+            </div>
+            <img class="group-122-SerqlW" src="img/group-122-3@1x.png" />
+          </div>
+        </div>
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-17@1x.png" />
+        <div class="group-154-C61RwL">
+          <img class="cityscan-RrQxtm" src="img/cityscan-24@1x.png" />
+          <img class="cityscan-CWcvtF" src="img/cityscan-1@1x.png" />
+        </div>
+        <a href="menu.html">
+          <div class="iconnaviga-onmenu24px-C61RwL"><img class="x-color-d0ekLC" src="img/--color-4@1x.png" /></div
+        ></a>
+      </div>
+    </div>
+    <div class="anima-container-center-horizontal">
+      <div class="about-us-mobile-1 anima-screen">
+        <div class="group-173-C61RwL">
+          <div class="group-2-n1vOno">
+            <div class="states-dar-ce-content-RaCyYH"></div>
+            <div class="dark-theme-ader-label-RaCyYH">
+              <div class="label-left-NBx47R">What we beleive</div>
+              <div class="divider-NBx47R"></div>
+            </div>
+            <div class="label-left-RaCyYH font-class-5">
+              With the advent of the technological era, the world has seen tremendous change, but many cities are forced
+              to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing
+              standards.<br />Cityscan aims to resolve this issue by fundamentally changing the structure by which
+              technology infrastructure is financed and implemented...
+            </div>
+            <div class="dark-theme-ader-label-aU12in"></div>
+          </div>
+          <div class="states-dar-ce-content-n1vOno"></div>
+          <img class="layer-0-n1vOno" src="img/layer-0-5@1x.png" />
+        </div>
+        <div class="group-177-C61RwL">
+          <div class="group-5-96B76r anima-smart-layers-pointers">
+            <div class="group-2-SE2UGh">
+              <div class="states-dar-ce-content-RL35CE"></div>
+              <div class="dark-theme-ader-label-RL35CE">
+                <div class="label-left-dL5mZo">Why we&#39;re better</div>
+                <div class="divider-dL5mZo"></div>
+              </div>
+              <div class="label-left-RL35CE">
+                With the advent of the technological era, the world has seen tremendous change, but many cities are
+                forced to spend enormous monetary resources replacing their outdated technology to keep up with the
+                ever-changing standards.<br /><br />Cityscan aims to resolve this issue by fundamentally changing the
+                structure by which technology infrastructure is financed and implemented...
+              </div>
+              <div class="dark-theme-ader-label-mDBMVL"></div>
+            </div>
+            <div class="group-158-SE2UGh">
+              <div class="states-dar-ce-content-AW9QAn"></div>
+            </div>
+          </div>
+          <img class="group-116-96B76r" src="img/group-116-3@1x.png" />
+        </div>
+        <div class="group-176-C61RwL">
+          <div class="group-175-jxV5iz">
+            <div class="group-5-SerqlW anima-smart-layers-pointers">
+              <div class="group-2-mYqo4V">
+                <div class="states-dar-ce-content-ilQOxx"></div>
+                <div class="dark-theme-ader-label-ilQOxx">
+                  <div class="label-left-xP5rsT">Our role</div>
+                  <div class="divider-xP5rsT"></div>
+                </div>
+                <div class="label-left-ilQOxx font-class-5">
+                  The advancement of society is directly dependent on the development of new infrastructure and the
+                  modernization of existing modes of transport. <br /><br />Cityscan leverages advantages in the
+                  computational intelligence field to meet the increasing demands for quality, reliability, and safety
+                  in transportation infrastructure.
+                </div>
+                <div class="dark-theme-ader-label-rSBH61"></div>
+              </div>
+              <div class="group-158-mYqo4V">
+                <div class="states-dar-ce-content-abeCGS"></div>
+              </div>
+            </div>
+            <img class="group-122-SerqlW" src="img/group-122-4@1x.png" />
+          </div>
+        </div>
+        <img class="rectangle-67-C61RwL" src="img/rectangle-67-21@1x.png" />
+        <img class="cityscan-2020-C61RwL" src="img/--cityscan-2020-34@1x.png" />
+        <img class="cityscan-2020-VMr6Om" src="img/--cityscan-2020-43@1x.png" />
+        <img class="rectangle-1-C61RwL" src="img/rectangle-1-22@1x.png" />
+        <div class="group-154-C61RwL">
+          <img class="cityscan-RrQxtm" src="img/cityscan-24@1x.png" />
+          <img class="cityscan-CWcvtF" src="img/cityscan-1@1x.png" />
+        </div>
+        <a href="menu.html">
+          <div class="iconnaviga-onmenu24px-C61RwL"><img class="x-color-d0ekLC" src="img/--color-4@1x.png" /></div
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
