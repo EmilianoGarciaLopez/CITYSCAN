@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="264cd9d9-5670-415c-ad2c-93334077d17c" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1khjwByIRLqlgQHpX2W09mIwqIP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +43,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\emili\Documents\Media Company\CITYSCAN" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,6 +59,7 @@
       <updated>1606159954946</updated>
       <workItem from="1606159955493" duration="428000" />
       <workItem from="1606160855804" duration="35000" />
+      <workItem from="1606160911253" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1606160167098</created>
@@ -84,6 +91,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1841" y="550" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606161057824">
+      <screen x="0" y="0" width="2731" height="1400" />
+    </state>
+    <state x="1841" y="550" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2731.1400@0.0.2731.1400" timestamp="1606161057824" />
     <state x="958" y="420" key="Vcs.Push.Dialog.v2" timestamp="1606160168659">
       <screen x="0" y="0" width="2731" height="1400" />
     </state>
