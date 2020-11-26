@@ -3,3 +3,26 @@ $lighter-black: #2F2F2F;
 $button-pink: #CAA2FC;
 $button-grey: #3F3F3F;
 $grey-text : #888888;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+
+body {
+    background-color: $black;
+    padding: none;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    color: white;
+    font-size: 36;
+    font-weight: 400;
+    font-family: monospace;
+}
+
+p {
+    color: white;
+    font-size: 20;
+    font-weight: 400;
+    font-family: monospace;
+}
