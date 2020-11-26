@@ -8,21 +8,55 @@ $grey-text : #888888;
 
 body {
     background-color: $black;
-    padding: none;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+
 }
 
 h1 {
     color: white;
     font-size: 36;
     font-weight: 400;
-    font-family: monospace;
+
 }
 
-p {
+li, a, p {
     color: white;
     font-size: 20;
     font-weight: 400;
-    font-family: monospace;
+    text-decoration: none;
+}
+
+header {
+    background: $lighter-black;
+    padding: 15px 5%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+}
+.nav-links {
+    list-style: none;
+
+    li {
+        display: inline;
+        padding: 10px 10px;
+        
+        a {
+            display: inline-block;
+            transition: all 0.3s ease 0s;
+            &:hover {
+            color: $grey-text;
+            }
+            &.active {
+                color: $button-pink;
+                transition: all 0.3s ease 0s;
+            }
+        }
+    }
 }

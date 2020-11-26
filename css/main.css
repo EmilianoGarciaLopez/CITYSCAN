@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+body {
+  background-color: #121212;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  color: white;
+  font-size: 36;
+  font-weight: 400;
+}
+
+li, a, p {
+  color: white;
+  font-size: 20;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+header {
+  background: #2F2F2F;
+  padding: 15px 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  padding: 10px 10px;
+}
+
+.nav-links li a {
+  display: inline-block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #888888;
+}
+
+.nav-links li a.active {
+  color: #CAA2FC;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+/*# sourceMappingURL=main.css.map */
