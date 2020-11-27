@@ -76,7 +76,7 @@ header {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-  height: 135vw;
+  height: 145vw;
   margin: 2vw;
   background-color: #2F2F2F;
 }
