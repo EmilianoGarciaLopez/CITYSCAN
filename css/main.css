@@ -77,12 +77,12 @@ header {
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
   height: 135vw;
-  margin: 3vw;
+  margin: 2vw;
   background-color: #2F2F2F;
 }
 
 section {
-  border: solid 2vh #121212;
+  border: solid 2.5vw #121212;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,23 +96,25 @@ section {
 
 img.four {
   width: 92%;
+  height: 92%;
 }
 
-.two {
+.text {
   display: block;
-  padding: 15px 40px;
+  padding: 0vw 3vw;
 }
 
-.two h1 {
+.text h1 {
   border-bottom: 1px solid #888888;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
+  font-size: 2.7vw;
 }
 
-.two p {
-  font-size: 1.35vw;
-  letter-spacing: 1px;
-  line-height: 1.8;
-  padding-top: 35px;
+.text p {
+  font-size: 1.3vw;
+  letter-spacing: .1vw;
+  line-height: 2.6vw;
+  padding-top: 1.2vw;
 }
 
 @media (max-width: 600px) {
@@ -121,8 +123,49 @@ img.four {
         grid-template-columns: 1fr;
     height: 550vw;
     margin: 6vw;
-    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
   }
+  section {
+    border: solid 4vw #121212;
+  }
+  .text {
+    padding: 0vw 5vw;
+  }
+  .text h1 {
+    font-size: 4.5vw;
+  }
+  .text p {
+    font-size: 2.6vw;
+    padding-top: 4.5vw;
+    line-height: 6vw;
+  }
+}
+
+@media (min-width: 1800px) {
+  .grid-container {
+    margin: 5% 10%;
+    height: 125vw;
+  }
+  .text {
+    padding: 0vw 3vw;
+  }
+  .text p {
+    font-size: 1vw;
+    padding-top: .3vw;
+    line-height: 2.5vw;
+  }
+}
+
+footer {
+  background: #2F2F2F;
+  padding: 15px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer h1 {
+  -webkit-text-stroke: .8px black;
 }
 /*# sourceMappingURL=main.css.map */
