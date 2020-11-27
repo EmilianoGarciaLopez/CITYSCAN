@@ -94,6 +94,27 @@ section {
           align-items: center;
 }
 
+img.four {
+  width: 92%;
+}
+
+.two {
+  display: block;
+  padding: 15px 40px;
+}
+
+.two h1 {
+  border-bottom: 1px solid #888888;
+  padding-bottom: 5px;
+}
+
+.two p {
+  font-size: 1.35vw;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  padding-top: 35px;
+}
+
 @media (max-width: 600px) {
   .grid-container {
     -ms-grid-columns: 1fr;
