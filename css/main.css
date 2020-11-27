@@ -9,6 +9,10 @@ body {
   color: white;
 }
 
+img {
+  width: 100%;
+}
+
 h1 {
   color: white;
   font-size: 36;
@@ -73,14 +77,30 @@ header {
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
   height: 145vw;
-  margin: 6vw;
+  margin: 4vw;
   background-color: #2F2F2F;
+}
+
+section {
+  border: solid 2vh #121212;
 }
 
 @media (max-width: 600px) {
   .grid-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    height: 550vw;
+    margin: 6vw;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+}
+
+.one {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
 }
 /*# sourceMappingURL=main.css.map */

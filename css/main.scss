@@ -15,6 +15,9 @@ body {
     color: white;
 
 }
+img {
+    width: 100%;
+}
 
 h1 {
     color: white;
@@ -67,14 +70,28 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 145vw;
-    margin: 6vw;
+    margin: 4vw;
     background-color: $lighter-black;
+    
 
+}
+
+section {
+    border: solid 2vh $black;
+    
 }
 
 @media (max-width: 600px) {
     .grid-container {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
+        height: 550vw;
+        margin: 6vw;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+}
+
+.one {
+    grid-area: 1 / 1 / 2 / 2;
 
 }
+
