@@ -70,7 +70,7 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 145vw;
-    margin: 4vw;
+    margin: 3vw;
     background-color: $lighter-black;
     
 
@@ -78,6 +78,19 @@ header {
 
 section {
     border: solid 2vh $black;
+
+    .one {
+        grid-area: 1 / 1 / 2 / 2;
+
+        .img {
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+
+    }
+    
     
 }
 
@@ -89,9 +102,3 @@ section {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
-
-.one {
-    grid-area: 1 / 1 / 2 / 2;
-
-}
-
