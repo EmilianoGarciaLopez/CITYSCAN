@@ -69,7 +69,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 145vw;
+    height: 135vw;
     margin: 3vw;
     background-color: $lighter-black;
     
@@ -78,21 +78,12 @@ header {
 
 section {
     border: solid 2vh $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    .one {
-        grid-area: 1 / 1 / 2 / 2;
-
-        .img {
-            top: 50%;
-            left: 50%;
-            margin-right: -50%;
-            transform: translate(-50%, -50%)
-        }
-
-    }
-    
-    
 }
+
 
 @media (max-width: 600px) {
     .grid-container {
