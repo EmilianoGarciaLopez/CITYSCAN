@@ -9,10 +9,6 @@ body {
   color: white;
 }
 
-img {
-  width: 100%;
-}
-
 h1 {
   color: white;
   font-size: 36;
@@ -21,14 +17,13 @@ h1 {
 
 li, a, p {
   color: white;
-  font-size: 20;
   font-weight: 400;
   text-decoration: none;
 }
 
 header {
   background: #2F2F2F;
-  padding: 15px 5%;
+  padding: 2vw 5vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -41,7 +36,7 @@ header {
 }
 
 .logo {
-  height: 40px;
+  height: 5vw;
 }
 
 .nav-links {
@@ -50,13 +45,14 @@ header {
 
 .nav-links li {
   display: inline;
-  padding: 10px 10px;
+  padding: 0vw 1vw;
 }
 
 .nav-links li a {
   display: inline-block;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  font-size: 1.2vw;
 }
 
 .nav-links li a:hover {
@@ -111,9 +107,9 @@ img.four {
 }
 
 .text p {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   letter-spacing: .1vw;
-  line-height: 2.6vw;
+  line-height: 2.5vw;
   padding-top: 1.2vw;
 }
 
@@ -142,10 +138,11 @@ img.four {
   }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 2000px) {
   .grid-container {
     margin: 5% 10%;
     height: 125vw;
+    height: 120vw;
   }
   .text {
     padding: 0vw 3vw;
