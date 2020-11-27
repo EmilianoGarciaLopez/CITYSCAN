@@ -6,6 +6,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
+  color: white;
 }
 
 h1 {
@@ -62,5 +63,24 @@ header {
   color: #CAA2FC;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  height: 145vw;
+  margin: 6vw;
+  background-color: #2F2F2F;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 /*# sourceMappingURL=main.css.map */

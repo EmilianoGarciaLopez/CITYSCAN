@@ -12,6 +12,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+    color: white;
 
 }
 
@@ -59,4 +60,21 @@ header {
             }
         }
     }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 145vw;
+    margin: 6vw;
+    background-color: $lighter-black;
+
+}
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr
+    }
+
 }
