@@ -9,15 +9,23 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <nav id="overlay">
+        <img src="./images/close.svg" alt="close button" class="close-btn" id="close-menu">
+
+        <ul>
+            <li class= "lis">
+                <a href="./index.html">About Us</a>
+                <a href="./projects.html">Projects</a>
+                <a href="./contact.html">Contact Us</a>
+            </li>
+        </ul>
+
+    </nav>
+
     <header>
-        <a href="./index.html"><img class="logo" src="./images/logo.svg" alt="Cityscan Logo"></a>
-        <nav class="hide-mobile">
-            <ul class= "nav-links">
-                <li><a href="./index.html">About Us</a></li>
-                <li><a href="./projects.html" class="active">Finished Projects</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div><img class="logo" src="./images/logo.svg" alt="Cityscan Logo"></div>
+
+        <div><img class="menu-btn" src="./images/ham.svg" id="open-menu" alt="Menu Item"></div>
     </header>
 
     <div class="grid-container container">
@@ -32,6 +40,7 @@
             <p>The federal tollway network is made up of almost 10,000 kilometers of highways, which is roughly comparable to the distance between Mexico and Berlin. Every day, more than 1,200,000 vehicles circulate, forming the most important tollway network in Latin America.
                 This network is the model of continuous evolution and constant growth of the country; roads built between beaches, forests, jungles, and deserts unite the big cities with the farthest corners of Mexico.
                 </p>
+                <button>Watch Video</button>
         </section>
 
         <section class="four">
@@ -41,8 +50,8 @@
         <section class="text">
             <h1>Naucalpan - Ecatepec Highway</h1>
             <p>Located in the valley of Mexico’s northern metropolitan area, the Naucalpan-Ecatepec tollway is a 7.8-mile highway that runs over the channel of Los Remedios river and crosses the most populated counties in this area. This important infrastructure work is the first urban tollway of Mexico and was built with the purpose of connecting the main corridors of the valley of Mexico tollway network.</p>
+            <button>Watch Video</button>
         </section>
-
 
 
         <section class="five">
@@ -53,10 +62,24 @@
         <section class="text">
             <h1>Chiapas - Mayab Railway</h1>
             <p>In 1999, the government of Mexico granted the Chiapas - Mayab railroad company the right to operate the operate the railroad freight service for a 50-year period. These railways totalized 963 miles of main railway and traveled through the southeast of Mexico; crossing the states of Veracruz, Tabasco Campeche, Yucatán Quintana Roo, and Oaxaca.</p>
+            <button>Watch Video</button>
         </section>
     </div>
     <footer>
         <h1>© Cityscan 2020</h1>
     </footer>
+
+    <script>
+        var overlay = document.getElementById('overlay');
+        var closeMenu = document.getElementById('close-menu');
+
+        document.getElementById('open-menu').addEventListener('click', function () {
+            overlay.classList.add('show-menu');
+        });
+
+        document.getElementById('close-menu').addEventListener('click', function () {
+            overlay.classList.remove('show-menu');
+        });
+    </script>
 </body>
 </html>

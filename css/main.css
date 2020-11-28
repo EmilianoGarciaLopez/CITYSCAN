@@ -87,8 +87,8 @@ nav ul .lis a {
 
 .show-menu {
   display: block;
-  -webkit-animation: slide-menu 1s ease-in forwards;
-          animation: slide-menu 1s ease-in forwards;
+  -webkit-animation: slide-menu 1s ease-in-out forwards;
+          animation: slide-menu 1s ease-in-out forwards;
 }
 
 .show-menu .close-btn {
@@ -97,8 +97,8 @@ nav ul .lis a {
 }
 
 .show-menu .lis {
-  -webkit-animation: menu-item-anim 0.6s 1s ease-in forwards;
-          animation: menu-item-anim 0.6s 1s ease-in forwards;
+  -webkit-animation: show-x 1s 1s forwards;
+          animation: show-x 1s 1s forwards;
 }
 
 @-webkit-keyframes slide-menu {
@@ -135,24 +135,6 @@ nav ul .lis a {
   from {
   }
   to {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes menu-item-anim {
-  from {
-    opacity: 0;
-  }
-  from {
-    opacity: 1;
-  }
-}
-
-@keyframes menu-item-anim {
-  from {
-    opacity: 0;
-  }
-  from {
     opacity: 1;
   }
 }
@@ -232,6 +214,24 @@ img.special {
     padding-top: 4.5vw;
     line-height: 6vw;
   }
+}
+
+button {
+  background-color: #3F3F3F;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  color: #888888;
+  padding: 0.4vw .8vw;
+  border-radius: .3vw;
+  font-family: 'Roboto Mono';
+}
+
+button:hover {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #CAA2FC;
+  color: #121212;
 }
 
 footer {

@@ -9,17 +9,37 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <nav id="overlay">
+        <img src="./images/close.svg" alt="close button" class="close-btn" id="close-menu">
+
+        <ul>
+            <li class= "lis">
+                <a href="./index.html">About Us</a>
+                <a href="./projects.html">Projects</a>
+                <a href="./contact.html">Contact Us</a>
+            </li>
+        </ul>
+
+    </nav>
+
     <header>
-        <a href="./index.html"><img class="logo" src="./images/logo.svg" alt="Cityscan Logo"></a>
-        <nav>
-            <ul class= "nav-links">
-                <li><a href="./index.html">About Us</a></li>
-                <li><a href="./projects.html">Finished Projects</a></li>
-                <li><a href="./contact.html" class="active">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div><img class="logo" src="./images/logo.svg" alt="Cityscan Logo"></div>
+
+        <div><img class="menu-btn" src="./images/ham.svg" id="open-menu" alt="Menu Item"></div>
     </header>
 
+    <script>
+        var overlay = document.getElementById('overlay');
+        var closeMenu = document.getElementById('close-menu');
+
+        document.getElementById('open-menu').addEventListener('click', function () {
+            overlay.classList.add('show-menu');
+        });
+
+        document.getElementById('close-menu').addEventListener('click', function () {
+            overlay.classList.remove('show-menu');
+        });
+    </script>
     
 </body>
 </html>

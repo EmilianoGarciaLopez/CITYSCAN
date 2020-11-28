@@ -92,16 +92,17 @@ nav {
 
 .show-menu {
     display: block;
-    animation: slide-menu 1s ease-in forwards;
+    animation: slide-menu 1s ease-in-out forwards;
 
     .close-btn {
         animation: show-x 1s 1s forwards;
     }
 
     .lis {
-        animation: menu-item-anim 0.6s 1s ease-in forwards;
+        animation: show-x 1s 1s forwards;
     }
 }
+
 
 @keyframes slide-menu {
     from {
@@ -119,16 +120,6 @@ nav {
         opacity: 1;
     }
 }
-
-@keyframes menu-item-anim {
-    from {
-        opacity: 0;
-    }
-    from {
-        opacity: 1;
-    }
-}
-
 
 
 /* overlay */
@@ -195,6 +186,24 @@ img.special {
             padding-top: 4.5vw;
             line-height: 6vw;
         }
+    }
+}
+
+button {
+    background-color: $button-grey;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    color: $grey-text;
+    padding: 0.4vw .8vw;
+    border-radius: .3vw;
+    font-family: 'Roboto Mono';
+    
+
+    &:hover {
+        transition: 0.7s;
+        background-color: $button-pink;
+        color: $black;
     }
 }
 
