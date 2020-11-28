@@ -36,14 +36,19 @@ header {
 
 header .logo {
   width: 100%;
+  padding-left: 4vw;
   height: 2.8vw;
   cursor: pointer;
 }
 
 header .menu-btn {
-  padding-right: 4.7vw;
+  padding-right: 4.4vw;
   height: 2vw;
   cursor: pointer;
+}
+
+.videos {
+  display: none;
 }
 
 nav {
@@ -190,6 +195,28 @@ img.special {
   letter-spacing: .1vw;
   line-height: 2.5vw;
   padding-top: 1.2vw;
+  padding-bottom: 0;
+}
+
+button {
+  background-color: #3F3F3F;
+  border: none;
+  font-size: 1vw;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  color: #888888;
+  padding: 0.4vw .8vw;
+  border-radius: .3vw;
+  font-family: 'Roboto Mono';
+  margin-bottom: 2vw;
+}
+
+button:hover {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #CAA2FC;
+  color: #121212;
 }
 
 @media (max-width: 600px) {
@@ -215,25 +242,12 @@ img.special {
     padding-top: 4.5vw;
     line-height: 6vw;
   }
-}
-
-button {
-  background-color: #3F3F3F;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  color: #888888;
-  padding: 0.4vw .8vw;
-  border-radius: .3vw;
-  font-family: 'Roboto Mono';
-}
-
-button:hover {
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
-  background-color: #CAA2FC;
-  color: #121212;
+  button {
+    padding: 0.8vw 1.6vw;
+    border-radius: .3vw;
+    font-size: 2.3vw;
+    margin-bottom: 5vw;
+  }
 }
 
 footer {
