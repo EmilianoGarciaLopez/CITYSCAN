@@ -22,6 +22,7 @@ li, a, p {
 /* overlay */
 header {
   padding: 2em;
+  background: #121212;
 }
 
 header .logo {
@@ -37,8 +38,33 @@ header .menu-btn {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   background: #121212;
+  padding: 2em;
+  width: calc(100% - 4em);
+  height: calc(100vh - 4em);
+  overflow: hidden;
+}
+
+nav .close-btn {
+  width: 18px;
+  float: right;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10% auto 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+nav ul a {
+  display: block;
+  padding-top: 16vh;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 /* overlay */
