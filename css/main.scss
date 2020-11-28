@@ -10,7 +10,6 @@ body {
     background-color: $black;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
     color: white;
 
@@ -29,38 +28,33 @@ li, a, p {
     text-decoration: none;
 }
 
+/* overlay */
+
 header {
-    background: $lighter-black;
-    padding: 2vw 5vw;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
+    padding: 2em;
 
-.logo {
-    height: 5vw;
-}
-.nav-links {
-    list-style: none;
-
-    li {
-        display: inline;
-        padding: 0vw 1vw;
-        
-        a {
-            display: inline-block;
-            transition: all 0.3s ease 0s;
-            font-size: 1.2vw;
-            &:hover {
-            color: $grey-text;
-            }
-            &.active {
-                color: $button-pink;
-                transition: all 0.3s ease 0s;
-            }
-        }
+    .logo {
+        width: 100%;
+        height: 20px;
+        float: left;
+    }
+    .menu-btn {
+        width: 18px;
+        float: right;
+        cursor: pointer;
     }
 }
+
+nav {
+    position: absolute;
+    background: $black;
+    
+
+}
+
+
+
+/* overlay */
 
 .grid-container {
     display: grid;
@@ -69,9 +63,8 @@ header {
     height: 145vw;
     margin: 2vw;
     background-color: $lighter-black;
-    
-
 }
+
 
 section {
     border: solid 2.5vw $black;
@@ -81,9 +74,11 @@ section {
 
 }
 
-img.four {
+img.full {
+    width: 100%;
+}
+img.special {
     width: 92%;
-    height: 92%;
 }
 
 .text {
@@ -126,25 +121,11 @@ img.four {
     }
 }
 
-@media (min-width: 2000px) {
-    .grid-container {
-        margin: 5% 10%;
-        height: 125vw;
-        height: 120vw;
-    }
-    .text {
-        padding: 0vw 3vw;
-        p {
-            font-size: 1vw;
-            padding-top: .3vw;
-            line-height: 2.5vw;
-        }
-    }
-}
+
 
 footer {
     background: $lighter-black;
-    padding: 15px 5%;
+    padding: 0px 5%;
     display: flex;
     h1 {
         -webkit-text-stroke: .8px black;
