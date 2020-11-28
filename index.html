@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <meta name="keywords" content="Artificial Intelligence, Infrastructure, Business, Transportation, Concession">
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <nav id="overlay">
         <img src="./images/close.svg" alt="close button" class="close-btn" id="close-menu">
 
         <ul>
-            <li>
+            <li class= "lis">
                 <a href="./index.html">About Us</a>
                 <a href="./projects.html">Projects</a>
                 <a href="./contact.html">Contact Us</a>
@@ -23,12 +25,12 @@
     </nav>
 
     <header>
-        <img class="logo" src="./images/logo.svg" alt="Cityscan Logo">
-        
-        <img class="menu-btn" src="./images/ham.svg" id="open-menu" alt="Menu Item">
+        <div><img class="logo" src="./images/logo.svg" alt="Cityscan Logo"></div>
+
+        <div><img class="menu-btn" src="./images/ham.svg" id="open-menu" alt="Menu Item"></div>
     </header>
 
-    
+
     <div class="grid-container">
         <section class="one">
             <img src="./images/AI.png" class="special" alt="Image of AI">
@@ -37,18 +39,23 @@
 
         <section class="text">
             <h1>What we Beleive</h1>
-            
-            <p>With the advent of the technological era, the world has seen tremendous change, but many cities are forced to spend enormous monetary resources replacing their outdated technology to keep up with the ever-changing standards.
 
-                Cityscan aims to resolve this issue by fundamentally changing the structure by which technology infrastructure is financed and implemented.</p>
+            <p>With the advent of the technological era, the world has seen tremendous change, but many cities are
+                forced to spend enormous monetary resources replacing their outdated technology to keep up with the
+                ever-changing standards.
+
+                Cityscan aims to resolve this issue by fundamentally changing the structure by which technology
+                infrastructure is financed and implemented.</p>
         </section>
 
 
         <section class="text">
             <h1>Why we're better</h1>
-            <p>The business model that technology infrastructure companies currently employ is inherently flawed, as it does not account for the rapid rate at which new products obviate the existing generation.
+            <p>The business model that technology infrastructure companies currently employ is inherently flawed, as it
+                does not account for the rapid rate at which new products obviate the existing generation.
 
-                Cityscan instead operates on a concessionary basis, which allows us and our customers to remain at the forefront of cutting-edge innovations.</p>
+                Cityscan instead operates on a concessionary basis, which allows us and our customers to remain at the
+                forefront of cutting-edge innovations.</p>
         </section>
 
 
@@ -64,9 +71,11 @@
 
         <section class="text">
             <h1>Our role</h1>
-            <p>The advancement of society is directly dependent on the development of new infrastructure and the modernization of existing modes of transport. 
+            <p>The advancement of society is directly dependent on the development of new infrastructure and the
+                modernization of existing modes of transport.
 
-                Cityscan leverages advantages in the computational intelligence field to meet the increasing demands for quality, reliability, and safety in transportation infrastructure.</p>
+                Cityscan leverages advantages in the computational intelligence field to meet the increasing demands for
+                quality, reliability, and safety in transportation infrastructure.</p>
         </section>
     </div>
     <footer>
@@ -76,15 +85,15 @@
     <script>
         var overlay = document.getElementById('overlay');
         var closeMenu = document.getElementById('close-menu');
-        
-        document.getElementById('open-menu').addEventListener('click', function() {
+
+        document.getElementById('open-menu').addEventListener('click', function () {
             overlay.classList.add('show-menu');
         });
 
-        document.getElementById('close-menu').addEventListener('click', function() {
+        document.getElementById('close-menu').addEventListener('click', function () {
             overlay.classList.remove('show-menu');
         });
-        
     </script>
 </body>
+
 </html>
