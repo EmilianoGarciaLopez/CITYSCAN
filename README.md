@@ -1,2 +1,2 @@
 # CITYSCAN
-web
+website for cityscan 
