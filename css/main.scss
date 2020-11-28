@@ -39,11 +39,12 @@ header {
 
     .logo {
         width: 100%;
-        height: 30px;
+        height: 2.8vw;
+        cursor: pointer;
     }
     .menu-btn {
         padding-right: 4.7vw;
-        height: 24px;
+        height: 2vw;
         cursor: pointer;
     }
 }
@@ -192,6 +193,7 @@ img.special {
 button {
     background-color: $button-grey;
     border: none;
+    cursor: pointer;
     text-decoration: none;
     display: inline-block;
     color: $grey-text;
