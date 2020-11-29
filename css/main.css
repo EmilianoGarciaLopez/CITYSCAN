@@ -232,7 +232,8 @@ button:hover {
 }
 
 .VideoOne img {
-  height: 2vw;
+  height: 2vh;
+  min-height: 30px;
   width: 100%;
   -webkit-transform: translate(47.5%, 0%);
           transform: translate(47.5%, 0%);
@@ -254,7 +255,8 @@ button:hover {
 }
 
 .VideoTwo img {
-  height: 2vw;
+  height: 2vh;
+  min-height: 30px;
   width: 100%;
   -webkit-transform: translate(47.5%, 0%);
           transform: translate(47.5%, 0%);
@@ -276,7 +278,8 @@ button:hover {
 }
 
 .VideoThree img {
-  height: 2vw;
+  height: 2vh;
+  min-height: 30px;
   width: 100%;
   -webkit-transform: translate(47.5%, 0%);
           transform: translate(47.5%, 0%);
