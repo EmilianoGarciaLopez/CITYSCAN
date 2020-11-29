@@ -3,7 +3,7 @@ body {
   background-color: #121212;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: white;
 }
 
@@ -23,20 +23,28 @@ li, a, p {
 header {
   padding: 1.2vw 0;
   background: #2F2F2F;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 header .logo {
   padding-left: 9vw;
-  height: 4vw;
+  height: 2.5em;
   padding-top: 0;
   padding-bottom: 0;
   cursor: pointer;
 }
+
 header .menu-btn {
   padding-right: 4.4vw;
-  height: 2vw;
+  height: 1.5em;
   cursor: pointer;
 }
 
@@ -48,27 +56,34 @@ nav {
   height: calc(100vh - 4em);
   overflow: hidden;
   display: none;
-  transform: scaleX(0);
-  transform-origin: right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
+
 nav .close-btn {
   width: 18px;
   float: right;
   cursor: pointer;
   opacity: 0;
 }
+
 nav ul {
   list-style-type: none;
   margin: 10% auto 0 auto;
   padding: 0;
   width: 80%;
 }
+
 nav ul .lis {
   opacity: 0;
 }
+
 nav ul .lis a {
   display: block;
-  padding-top: 16vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
   color: white;
   font-weight: bold;
   font-size: 2.5em;
@@ -76,33 +91,66 @@ nav ul .lis a {
 
 .show-menu {
   display: block;
-  animation: slide-menu 1s ease-in-out forwards;
+  -webkit-animation: slide-menu 1s ease-in-out forwards;
+          animation: slide-menu 1s ease-in-out forwards;
 }
+
 .show-menu .close-btn {
-  animation: show-x 1s 1s forwards;
+  -webkit-animation: show-x 1s 1s forwards;
+          animation: show-x 1s 1s forwards;
 }
+
 .show-menu .lis {
-  animation: show-x 1s 1s forwards;
+  -webkit-animation: show-x 1s 1s forwards;
+          animation: show-x 1s 1s forwards;
+}
+
+@-webkit-keyframes slide-menu {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
 }
 
 @keyframes slide-menu {
   from {
-    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
   }
   to {
-    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
   }
 }
-@keyframes show-x {
+
+@-webkit-keyframes show-x {
+  from {
+  }
   to {
     opacity: 1;
   }
 }
+
+@keyframes show-x {
+  from {
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* overlay */
 .grid-container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
   height: 145vw;
   margin: 2vw;
   background-color: #2F2F2F;
@@ -110,9 +158,15 @@ nav ul .lis a {
 
 section {
   border: solid 2.5vw #121212;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 img.full {
@@ -127,14 +181,16 @@ img.special {
   display: block;
   padding: 0vw 3vw;
 }
+
 .text h1 {
   border-bottom: 1px solid #888888;
   padding-bottom: 4px;
   font-size: 2.7vw;
 }
+
 .text p {
   font-size: 1.2vw;
-  letter-spacing: 0.1vw;
+  letter-spacing: .1vw;
   line-height: 2.5vw;
   padding-top: 1.2vw;
   padding-bottom: 0;
@@ -148,12 +204,14 @@ button {
   text-decoration: none;
   display: inline-block;
   color: #888888;
-  padding: 0.4vw 0.8vw;
-  border-radius: 0.3vw;
-  font-family: "Roboto Mono";
+  padding: 0.4vw .8vw;
+  border-radius: .3vw;
+  font-family: 'Roboto Mono';
   margin-bottom: 2vw;
 }
+
 button:hover {
+  -webkit-transition: 0.7s;
   transition: 0.7s;
   background-color: #CAA2FC;
   color: #121212;
@@ -164,16 +222,20 @@ button:hover {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 80%;
 }
+
 .VideoOne video {
   width: 100%;
 }
+
 .VideoOne img {
   height: 2vw;
   width: 100%;
-  transform: translate(47.5%, 0%);
+  -webkit-transform: translate(47.5%, 0%);
+          transform: translate(47.5%, 0%);
   cursor: pointer;
 }
 
@@ -182,16 +244,20 @@ button:hover {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 80%;
 }
+
 .VideoTwo video {
   width: 100%;
 }
+
 .VideoTwo img {
   height: 2vw;
   width: 100%;
-  transform: translate(47.5%, 0%);
+  -webkit-transform: translate(47.5%, 0%);
+          transform: translate(47.5%, 0%);
   cursor: pointer;
 }
 
@@ -200,31 +266,35 @@ button:hover {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 80%;
 }
+
 .VideoThree video {
   width: 100%;
 }
+
 .VideoThree img {
   height: 2vw;
   width: 100%;
-  transform: translate(47.5%, 0%);
+  -webkit-transform: translate(47.5%, 0%);
+          transform: translate(47.5%, 0%);
   cursor: pointer;
 }
 
 @media (max-width: 600px) {
   .grid-container {
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     height: 550vw;
     margin: 6vw;
-    grid-template-rows: repeat(6, 1fr);
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
   }
-
   section {
     border: solid 4vw #121212;
   }
-
   .text {
     padding: 0vw 5vw;
   }
@@ -236,25 +306,24 @@ button:hover {
     padding-top: 4.5vw;
     line-height: 6vw;
   }
-
   button {
     padding: 0.8vw 1.6vw;
-    border-radius: 0.3vw;
+    border-radius: .3vw;
     font-size: 2.3vw;
     margin-bottom: 5vw;
   }
 }
+
 footer {
   background: #2F2F2F;
   padding: 0px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
+
 footer h1 {
-  -webkit-text-stroke: 0.8px black;
+  -webkit-text-stroke: .8px black;
 }
 
 .VideoOneD {
@@ -294,9 +363,14 @@ footer h1 {
 
 .fcf-input-group {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   width: 100%;
 }
 
@@ -336,13 +410,16 @@ label.fcf-label {
   color: #fff;
   background-color: #3F3F3F;
 }
+
 .fcf-btn-primary:hover {
   color: #121212;
   background-color: #CAA2FC;
 }
+
 .fcf-btn-primary:focus {
   color: #fff;
-  box-shadow: 0 0 0 0.2rem rgba(180, 88, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(180, 88, 255, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(180, 88, 255, 0.5);
 }
 
 .fcf-btn-lg {
@@ -361,16 +438,15 @@ label.fcf-label {
   margin-top: 0.5rem;
 }
 
-input[type=submit].fcf-btn-block {
+input[type="submit"].fcf-btn-block {
   width: 100%;
 }
 
-input[type=reset].fcf-btn-block {
+input[type="reset"].fcf-btn-block {
   width: 100%;
 }
 
-input[type=button].fcf-btn-block {
+input[type="button"].fcf-btn-block {
   width: 100%;
 }
-
 /*# sourceMappingURL=main.css.map */
