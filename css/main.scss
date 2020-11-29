@@ -192,6 +192,7 @@ button {
 
 
 
+
 .VideoOne {
     display: none;
     position: fixed;
@@ -207,10 +208,12 @@ button {
     img {
         height: 2vw;
         width: 100%;
-        transform: translate(47.5%, 170%);
+        transform: translate(47.5%, 0%);
+        cursor: pointer;
 
     }
 }
+
 
 
 .VideoTwo {
@@ -219,7 +222,19 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
+    width: 80%;
+
+    video {
+        width: 100%;
+    }
+
+    img {
+        height: 2vw;
+        width: 100%;
+        transform: translate(47.5%, 0%);
+        cursor: pointer;
+
+    }
 }
 
 
@@ -229,9 +244,20 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
-}
+    width: 80%;
 
+    video {
+        width: 100%;
+    }
+
+    img {
+        height: 2vw;
+        width: 100%;
+        transform: translate(47.5%, 0%);
+        cursor: pointer;
+
+    }
+}
 
 @media (max-width: 600px) {
     .grid-container {
@@ -274,4 +300,17 @@ footer {
         -webkit-text-stroke: .8px black;
 
     }
+}
+
+
+.VideoOneD {
+    display: block;
+}
+
+.VideoTwoD {
+    display: block;
+}
+
+.VideoThreeD {
+    display: block;
 }

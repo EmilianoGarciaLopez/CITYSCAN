@@ -232,8 +232,9 @@ button:hover {
 .VideoOne img {
   height: 2vw;
   width: 100%;
-  -webkit-transform: translate(47.5%, 170%);
-          transform: translate(47.5%, 170%);
+  -webkit-transform: translate(47.5%, 0%);
+          transform: translate(47.5%, 0%);
+  cursor: pointer;
 }
 
 .VideoTwo {
@@ -243,7 +244,19 @@ button:hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 85%;
+  width: 80%;
+}
+
+.VideoTwo video {
+  width: 100%;
+}
+
+.VideoTwo img {
+  height: 2vw;
+  width: 100%;
+  -webkit-transform: translate(47.5%, 0%);
+          transform: translate(47.5%, 0%);
+  cursor: pointer;
 }
 
 .VideoThree {
@@ -253,7 +266,19 @@ button:hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 85%;
+  width: 80%;
+}
+
+.VideoThree video {
+  width: 100%;
+}
+
+.VideoThree img {
+  height: 2vw;
+  width: 100%;
+  -webkit-transform: translate(47.5%, 0%);
+          transform: translate(47.5%, 0%);
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -297,5 +322,17 @@ footer {
 
 footer h1 {
   -webkit-text-stroke: .8px black;
+}
+
+.VideoOneD {
+  display: block;
+}
+
+.VideoTwoD {
+  display: block;
+}
+
+.VideoThreeD {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */

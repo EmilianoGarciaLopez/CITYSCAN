@@ -67,21 +67,21 @@
 
 
         <div>
-            <div class="VideoOne">
-                <img src="./images/close.svg" alt="close button" class="close-btn" id="close-menu">
-                <video src="./videos/SIVA.mp4" autoplay></video>
+            <div id="vid1" class="VideoOne">
+                <img src="./images/close.svg" alt="close button" class="close-btn" id="close-video">
+                <video src="./videos/SIVA.mp4" controls></video>
 
             </div>
 
-            <div class="VideoTwo">
-                <img src="./images/close.svg" alt="close button" class="close-btn" id="close-menu">
-                <video src="./videos/Naucalpan Ecatepec.mp4" autoplay></video>
+            <div id='vid2' class="VideoTwo">
+                <img src="./images/close.svg" alt="close button" class="close-btn" id="close-video2">
+                <video src="./videos/Naucalpan Ecatepec.mp4" controls></video>
 
             </div>
 
-            <div class="VideoThree">
-                <img src="./images/close.svg" alt="close button" class="close-btn" id="close-menu">
-                <video src="./videos/Chiapas Mayab.mp4" autoplay></video>
+            <div id='vid3' class= "VideoThree">
+                <img src="./images/close.svg" alt="close button" class="close-btn" id="close-video3">
+                <video src="./videos/Chiapas Mayab.mp4" controls></video>
 
             </div>
         </div>
@@ -106,18 +106,36 @@
         });
     </script>
 
-<script>
-    var overlay = document.getElementById('overlay');
-    var closeMenu = document.getElementById('close-menu');
+    <script>
+        var video1 = document.getElementById('vid1');
+        var video2 = document.getElementById('vid2');
+        var video3 = document.getElementById('vid3');
 
-    document.getElementById('open-menu').addEventListener('click', function () {
-        overlay.classList.add('show-menu');
-    });
 
-    document.getElementById('close-menu').addEventListener('click', function () {
-        overlay.classList.remove('show-menu');
-    });
-</script>
+        document.getElementById('1').addEventListener('click', function () {
+            video1.classList.add('VideoOneD');
+        });
+
+        document.getElementById('close-video').addEventListener('click', function () {
+            video1.classList.remove('VideoOneD');
+        });
+
+        document.getElementById('2').addEventListener('click', function () {
+            video2.classList.add('VideoTwoD');
+        });
+
+        document.getElementById('close-video2').addEventListener('click', function () {
+            video2.classList.remove('VideoTwoD');
+        });
+
+        document.getElementById('3').addEventListener('click', function () {
+            video3.classList.add('VideoThreeD');
+        });
+
+        document.getElementById('close-video3').addEventListener('click', function () {
+            video3.classList.remove('VideoThreeD');
+        });
+    </script>
 
 </body>
 </html>
