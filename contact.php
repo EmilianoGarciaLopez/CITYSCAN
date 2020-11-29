@@ -1,8 +1,8 @@
 <?php
 
 if($_POST["submit"]) {
-    $recipient="your@email.address";
-    $subject="Form to email message";
+    $recipient="emilianogarcialopez26@gmail.com";
+    $subject="Form Submission";
     $sender=$_POST["sender"];
     $senderEmail=$_POST["senderEmail"];
     $message=$_POST["message"];
@@ -48,23 +48,22 @@ if($_POST["submit"]) {
         <div><img class="menu-btn" src="./images/ham.svg" id="open-menu" alt="Menu Item"></div>
     </header>
 
-    <section>
-        <?=$thankYou ?>
 
-        <form method="post" action="contact.php">
-            <label>Name:</label>
-            <input name="sender">
+    <?=$thankYou ?>
+
+    <form method="post" action="contact.php">
+        <label>Name:</label>
+        <input name="sender">
+
+        <label>Email address:</label>
+        <input name="senderEmail">
+
+        <label>Message:</label>
+        <textarea rows="5" cols="20" name="message"></textarea>
+
+        <input type="submit" name="submit">
+    </form>
     
-            <label>Email address:</label>
-            <input name="senderEmail">
-    
-            <label>Message:</label>
-            <textarea rows="5" cols="20" name="message"></textarea>
-    
-            <input type="submit" name="submit">
-        </form>
-    
-    </section>
 
 
 
