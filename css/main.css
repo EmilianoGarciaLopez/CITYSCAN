@@ -288,7 +288,7 @@ button:hover {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     height: 550vw;
-    margin: 6vw;
+    margin: 5vw;
     -ms-grid-rows: (1fr)[6];
         grid-template-rows: repeat(6, 1fr);
   }
