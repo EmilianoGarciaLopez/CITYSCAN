@@ -36,8 +36,10 @@ header {
 
 header .logo {
   width: 100%;
-  padding-left: 4vw;
-  height: 2.8vw;
+  padding-left: 1vw;
+  height: 4vw;
+  padding-top: 0;
+  padding-bottom: 0;
   cursor: pointer;
 }
 
@@ -84,7 +86,7 @@ nav ul .lis a {
   padding-top: 16vh;
   color: white;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .show-menu {
