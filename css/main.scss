@@ -294,6 +294,8 @@ button {
 
 
 
+
+
 footer {
     background: $lighter-black;
     padding: 0px 5%;
@@ -409,4 +411,8 @@ input[type="reset"].fcf-btn-block {
 }
 input[type="button"].fcf-btn-block {
 	width: 100%;
+}
+
+.frm {
+    display: none;
 }

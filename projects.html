@@ -6,6 +6,7 @@
     <title>Finished Projects</title>
     <meta name="description" content="Overview of our finished projects">
     <meta name="keywords" content="Artificial Intelligence, Infrastructure, Business, Projects, Transportation, Concession">
+    <link rel="icon" type="image/png" href="./images/logo.svg">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -69,19 +70,19 @@
         <div>
             <div id="vid1" class="VideoOne">
                 <img src="./images/close.svg" alt="close button" class="close-btn" id="close-video">
-                <video src="./videos/SIVA.mp4" controls></video>
+                <video src="./videos/SIVA.mp4" id="v1" controls></video>
 
             </div>
 
             <div id='vid2' class="VideoTwo">
                 <img src="./images/close.svg" alt="close button" class="close-btn" id="close-video2">
-                <video src="./videos/Naucalpan Ecatepec.mp4" controls></video>
+                <video src="./videos/Naucalpan Ecatepec.mp4" id="v2" controls></video>
 
             </div>
 
             <div id='vid3' class= "VideoThree">
                 <img src="./images/close.svg" alt="close button" class="close-btn" id="close-video3">
-                <video src="./videos/Chiapas Mayab.mp4" controls></video>
+                <video src="./videos/Chiapas Mayab.mp4" id="v3" controls></video>
 
             </div>
         </div>
@@ -118,6 +119,7 @@
 
         document.getElementById('close-video').addEventListener('click', function () {
             video1.classList.remove('VideoOneD');
+            document.getElementById('v1').pause();
         });
 
         document.getElementById('2').addEventListener('click', function () {
@@ -126,6 +128,7 @@
 
         document.getElementById('close-video2').addEventListener('click', function () {
             video2.classList.remove('VideoTwoD');
+            document.getElementById('v2').pause();
         });
 
         document.getElementById('3').addEventListener('click', function () {
@@ -134,6 +137,7 @@
 
         document.getElementById('close-video3').addEventListener('click', function () {
             video3.classList.remove('VideoThreeD');
+            document.getElementById('v3').pause();
         });
     </script>
 
