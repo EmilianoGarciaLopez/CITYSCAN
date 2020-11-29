@@ -47,10 +47,6 @@ header .menu-btn {
   cursor: pointer;
 }
 
-.videos {
-  display: none;
-}
-
 nav {
   position: fixed;
   background: #121212;
@@ -217,6 +213,47 @@ button:hover {
   transition: 0.7s;
   background-color: #CAA2FC;
   color: #121212;
+}
+
+.VideoOne {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.VideoOne video {
+  width: 100%;
+}
+
+.VideoOne img {
+  height: 2vw;
+  width: 100%;
+  -webkit-transform: translate(47.5%, 170%);
+          transform: translate(47.5%, 170%);
+}
+
+.VideoTwo {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 85%;
+}
+
+.VideoThree {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 85%;
 }
 
 @media (max-width: 600px) {

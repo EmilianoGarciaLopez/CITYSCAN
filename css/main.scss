@@ -50,9 +50,6 @@ header {
     }
 }
 
-.videos {
-    display: none;
-}
 
 
 
@@ -191,6 +188,48 @@ button {
         background-color: $button-pink;
         color: $black;
     }
+}
+
+
+
+.VideoOne {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    video {
+        width: 100%;
+    }
+
+    img {
+        height: 2vw;
+        width: 100%;
+        transform: translate(47.5%, 170%);
+
+    }
+}
+
+
+.VideoTwo {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+}
+
+
+.VideoThree {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
 }
 
 
