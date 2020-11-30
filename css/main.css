@@ -230,6 +230,7 @@ button:hover {
 
 .VideoOne video {
   width: 100%;
+  background-color: black;
 }
 
 .VideoOne img {
