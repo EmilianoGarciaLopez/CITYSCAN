@@ -51,6 +51,7 @@ header .menu-btn {
 }
 
 nav {
+  z-index: 2;
   position: fixed;
   background: #121212;
   padding: 2em;
@@ -456,9 +457,5 @@ input[type="reset"].fcf-btn-block {
 
 input[type="button"].fcf-btn-block {
   width: 100%;
-}
-
-.frm {
-  display: none;
 }
 /*# sourceMappingURL=main.css.map */
