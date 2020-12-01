@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #121212;
   margin: 0;
@@ -19,7 +23,6 @@ li, a, p {
   text-decoration: none;
 }
 
-/* overlay */
 header {
   padding: 1.2vw 0;
   background: #2F2F2F;
@@ -50,6 +53,7 @@ header .menu-btn {
   cursor: pointer;
 }
 
+/* overlay */
 nav {
   z-index: 2;
   position: fixed;

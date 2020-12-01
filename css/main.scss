@@ -6,6 +6,11 @@ $grey-text : #888888;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: $black;
     margin: 0;
@@ -28,7 +33,7 @@ li, a, p {
     text-decoration: none;
 }
 
-/* overlay */
+
 
 header {
     padding: 1.2vw 0;
@@ -36,6 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
 
     .logo {
         padding-left: 5vw;
@@ -53,7 +59,7 @@ header {
     }
 }
 
-
+/* overlay */
 
 
 nav {
