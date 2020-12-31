@@ -1,0 +1,30 @@
+.videos {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .lang {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        max-width: 1440px;
+        padding: 3% 0 0 0;
+        h1 {
+            font-weight: 900;
+            padding-bottom: 3px;
+            border-bottom: 2px grey solid;
+        }
+
+        div {
+            margin: 4% 0;
+
+            video {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
